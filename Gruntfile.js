@@ -28,6 +28,13 @@ module.exports = function(grunt){
       build: {
         files: [{
           cwd: 'client',
+          src: 'index.jade',
+          dest: './',
+          ext: '.html',
+          expand: true
+        },
+        {
+          cwd: 'client',
           src: '**/*.jade',
           dest: 'public',
           ext: '.html',
