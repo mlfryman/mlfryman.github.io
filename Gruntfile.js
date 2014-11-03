@@ -6,14 +6,14 @@ module.exports = function(grunt){
     // ---------------------------------------------------------------------- //
     watch: {
       code: {
-        files: ['Gruntfile.js', 'client/**/*', 'server/**/*'],
+        files: ['Gruntfile.js', 'client/**/*'],
         tasks: ['build']
       }
     },
     // ---------------------------------------------------------------------- //
     jshint: {
       options: {jshintrc: '.jshintrc', reporter: require('jshint-stylish')},
-      all: ['Gruntfile.js', 'client/**/*.js', 'server/**/*.js']
+      all: ['Gruntfile.js', 'client/**/*.js']
     },
     // ---------------------------------------------------------------------- //
     jscs: {
@@ -40,7 +40,7 @@ module.exports = function(grunt){
       build: {
         files: [{
           cwd: 'client',
-          src: '**/*.less',
+          src: '**/*.sass',
           dest: 'public',
           ext: '.css',
           expand: true
@@ -85,13 +85,13 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jade');
-  grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('deploy', ['clean', 'build', 'shell:bower']);
-  grunt.registerTask('build', ['jshint:all', 'jscs', 'jade', 'less', 'copy:js', 'copy:assets', 'copy:favicon']);
+  grunt.registerTask('build', ['jshint:all', 'jscs', 'jade', 'sass', 'copy:js', 'copy:assets', 'copy:favicon']);
   grunt.registerTask('default', ['build', 'watch']);
 };
 
