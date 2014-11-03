@@ -2,10 +2,351 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Melanie L. Fryman
-    link(href='/public/css/index.css', rel='stylesheet')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='SquareRoot-Responsive OnePage Template')
+    meta(name='keywords', content='one page, html5, jquery, responsive, squareroot, portfolio, personal')
+    meta(name='author', content='solutionportal')
+    title mlfryman portfolio
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/fonts/elegant/styles.css')
+    link(href='css/magnific-popup.css', rel='stylesheet')
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/css/owl.theme.css')
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/css/simpletextrotator.css')
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/css/owl.carousel.css')
+    // Main css
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/css/bootstrap-custom.css')
+    link(rel='stylesheet', href='public/vendor/squareroot-portfolio/css/main.css')
+    link(href='http://fonts.googleapis.com/css?family=Raleway:400,800', rel='stylesheet', type='text/css')
   body
-    h1 Melanie L. Fryman's Portfolio
-
+    // Preloader Start
+    #preload
+      img(src='img/preload.gif', alt='preload')
+    // Preloader End
+    header#header.page-head.clearfix
+      .container
+        .site-logo
+          img(src='img/logo.png', alt='site-logo')
+        nav
+          ul.main-nav
+            li.nav-control
+              a.e-eleganticons-53(href='#non') &nbsp;
+              ul.inner-nav
+                li
+                  a.e-eleganticons-92(href='#home')
+                    span Home
+                li
+                  a.e-eleganticons-183(href='#about')
+                    span About
+                li
+                  a.e-eleganticons-93(href='#services')
+                    span Services
+                li
+                  a.e-eleganticons-101(href='#resume')
+                    span Resume
+                li
+                  a.e-eleganticons-116(href='#portfolio')
+                    span Portfolio
+                li
+                  a.e-eleganticons-99(href='#contact')
+                    span Contact
+          // End Nav
+    #home.home
+      header.big-title
+        h1.big-head
+          span
+            em Johnny Doe
+        // Separate with a comma to add more text
+        h4#words-rotate.text-sub Code Monkey &amp; Designer, A Bike Rider, AAM Aadmi (Ordinary Man)
+      .cv-btn
+        a(href='#non') Download Resume
+      .learn-more
+        a.e-eleganticons-162(href='#about') learn more about me
+    #about.about
+      // Extra Info
+      .extra-info
+        .container
+          ul.row
+            li.birthdate.col-md-3.col-sm-3.col-xs-6
+              span.head Birthdate
+              span 18-05-1984
+            li.work-type.col-md-3.col-sm-3.col-xs-6
+              span.head Work As
+              span Freelancer
+            li.phone-no.col-md-3.col-sm-3.col-xs-6
+              span.head Phone No
+              span 8790200300
+            li.email.col-md-3.col-sm-3.col-xs-6
+              span.head Email Address
+              span johnny@doe.com
+      // Author Info
+      .author-info.container
+        header.title
+          h2 About Me
+          h3
+            span /
+            | Who Am I
+        .info.row
+          figure.col-md-4.col-sm-5.author-pic
+            img(src='img/author-pic.jpg', alt='author-pic')
+          .desc.col-md-8.col-sm-7
+            p
+              | Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti 
+              strong highlighted text
+              |  per conubia nostra, per inceptos himenaeos.
+            br
+            p
+              | Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. condimentum fermentum nunc.
+      // Statistics
+      .statistics
+        .container
+          h3.title Statistics
+          .row.desc
+            .col-md-3.col-sm-3.col-xs-6
+              span.num 3
+              span years of experience
+            .col-md-3.col-sm-3.col-xs-6
+              span.num 300
+              span projects completed
+            .col-md-3.col-sm-3.col-xs-6
+              span.num 2093
+              span hours of work
+            .col-md-3.col-sm-3.col-xs-6
+              span.num 2500
+              span bear cans
+      // End Statistics
+    // End About Section
+    #services.services
+      .container.serv
+        header.title
+          h2 Services
+          h3
+            span /
+            | What I do
+        p.desc
+          | Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+        ul.serv-box.row
+          li.col-md-4.col-sm-4
+            .box.box-1
+              span.icon.e-eleganticons-131 &nbsp;
+              h4.head Web Design
+              p.desc.center
+                | Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit nibh vel velit.
+          li.col-md-4.col-sm-4
+            .box.box-1
+              span.icon.e-eleganticons-94 &nbsp;
+              h4.head iOS Development
+              p.desc.center
+                | Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit nibh vel velit.
+          li.col-md-4.col-sm-4
+            .box.box-1
+              span.icon.e-eleganticons-123 &nbsp;
+              h4.head Full Support
+              p.desc.center
+                | Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit nibh vel velit.
+      // End Container
+      .testimonials
+        .container
+          h3.title Testimonials
+          span.e-fontawesome-webfont.quote-icon &nbsp;
+          ul#owl-carousel.testi-list
+            li
+              .testi.testi-1
+                p
+                  | Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor.
+                span.commentor Emily Watson, CYX LLC.
+            li
+              .testi.testi-2
+                p
+                  | Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                span.commentor John Watson, XYZ Ltd.
+          .arrows
+            span.back.e-eleganticons-159
+            span.next.e-eleganticons-160
+    // End Services Section
+    #resume.resume
+      .timeline.container
+        header.title
+          h2 Resume
+          h3
+            span /
+            | My entire career
+        .education.timeline-cont.clearfix
+          span.title
+            strong Education
+          .group.group-1.clearfix
+            span.date May 04
+            span.point-circle
+            .desc-box
+              h4 B.Tech, Computer Science
+              span.sub-title Oxford University
+              p
+                | Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.
+          .group.group-2.group-alter.clearfix
+            .desc-box
+              h4 M.Tech, Computer Science
+              span.sub-title M.I.T
+              p
+                | Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.
+            span.point-circle
+            span.date June 08
+        // End Education
+        .experience.timeline-cont.clearfix
+          span.title
+            strong Experience
+          .group.group-1.clearfix
+            span.date Aug 08
+            span.point-circle
+            .desc-box
+              h4 JavaScript Developer
+              span.sub-title Awesome Company, Ltd.
+              p
+                | Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.
+          .group.group-2.group-alter.clearfix
+            .desc-box
+              h4 Lead Developer
+              span.sub-title Ordinary Works, Ltd.
+              p
+                | Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.
+            span.point-circle
+            span.date Jan 11
+        // End Experience
+        .end-box.clearfix
+          span.title
+            strong End
+      // End Timeline
+      // Skills
+      .skills
+        .container
+          h3.title Skills
+          .row
+            .chart.col-md-3.col-sm-6.col-xs-6
+              .chart-draw(data-percent='75')
+                em 75%
+              span.sub JavaScript
+            .chart.col-md-3.col-sm-6.col-xs-6
+              .chart-draw(data-percent='90')
+                em 90%
+              span.sub HTML/CSS3
+            .chart.col-md-3.col-sm-6.col-xs-6
+              .chart-draw(data-percent='80')
+                em 80%
+              span.sub Photoshop
+            .chart.col-md-3.col-sm-6.col-xs-6
+              .chart-draw(data-percent='70')
+                em 70%
+              span.sub C/C++
+      // End Skills
+    // End Resume Section
+    #portfolio.portfolio
+      .works.container
+        header.title
+          h2 Portfolio
+          h3
+            span /
+            | Work done so far
+        p.desc
+          | Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu adilip litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+        ul.filter-menu
+          li
+            a.filter-current(href='#non', data-filter='*') All
+            | &nbsp;//
+          li
+            a(href='#non', data-filter='.print') Graphic
+            | &nbsp;//
+          li
+            a(href='#non', data-filter='.design') Web Design
+            | &nbsp;//
+          li
+            a(href='#non', data-filter='.illustration') Print
+        ul.filter-port.row
+          li.item.print.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+          li.item.design.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+          li.item.illustration.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+          li.item.print.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+          li.item.design.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+          li.item.print.col-md-4.col-sm-6
+            figure
+              img(src='public/vendor/squareroot-portfolio/img/port/placehold.jpg', alt='placeholder-img')
+              a(href='public/vendor/squareroot-portfolio/img/port/placehold.jpg', rel='external')
+                | Project Title
+                span
+                  em subtitle
+    // End Portfolio Section
+    #contact.contact
+      .container
+        header.title
+          h2 Contact
+          h3
+            span /
+            | Get in touch with me
+        form#contact-form.contact-form.row(method='post', name='contact-form', action='contact.php')
+          .inputs.col-md-6.col-sm-6.col-xs-6
+            input#name(type='text', name='name', placeholder='NAME')
+          .inputs.col-md-6.col-sm-6.col-xs-6
+            input#email(type='email', name='email', placeholder='EMAIL')
+          .inputs.col-md-12.col-sm-12.col-xs-12
+            input#subject(type='text', name='subject', placeholder='SUBJECT')
+          .inputs.col-md-12.col-sm-12.col-xs-12
+            label(for='message') Message
+            textarea#message(name='message', cols='50', rows='6', placeholder='')
+          .inputs.contact-submit
+            input#form-submit(type='submit', value='SEND MESSAGE')
+    // End Contact Section
+    footer#footer.page-foot.clearfix
+      .container
+        p.copyright &copy; squareroot 2014
+        ul.socials
+          li
+            a.e-eleganticons-208(href='#non')
+          li
+            a.e-eleganticons-207(href='#non')
+          li
+            a.e-eleganticons-13(href='#non')
+          li
+            a.e-eleganticons-17(href='#non')
+    // Script at the bottom
+    script(src='public/vendor/squareroot-portfolio/js/jquery-1.10.2.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/preloader.js')
+    script(src='public/vendor/squareroot-portfolio/js/jquery.easypiechart.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/jquery.smooth-scroll.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/owl.carousel.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/jquery.validate.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/magnific-popup.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/waypoints.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/jquery.simple-text-rotator.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/jquery.isotope.min.js')
+    script(src='public/vendor/squareroot-portfolio/js/custom.js')
+    // For IE9 and below
+    //if lt IE 10
+      script(src='public/vendor/squareroot-portfolio/js/jquery.placeholder.min.js')
+      script(type='text/javascript').
+        $('input, textarea').placeholder();
