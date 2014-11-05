@@ -1,0 +1,781 @@
+doctype html
+//if lt IE 7 
+  html.ie.ie6(lang='en')  
+//if IE 7 
+  html.ie.ie7(lang='en')  
+//if IE 8 
+  html.ie.ie8(lang='en')  
+// [if (gte IE 9)|!(IE)] <!
+html.not-ie(lang='en')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Melanie L. Fryman - Portfolio')
+    meta(name='keywords', content='portfolio')
+    meta(name='author', content='Melanie L. Fryman')
+    title Melanie L. Fryman&apos;s Portfolio
+    // Fav and touch icons
+    link(rel='shortcut icon', href='public/assets/img/icons/favicon.ico')
+    link(rel='apple-touch-icon', href='public/assets/img/icons/apple-touch-icon.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='public/assets/img/icons/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='public/assets/img/icons/apple-touch-icon-114x114.png')
+    //if lt IE 9
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+    // style sheet
+    link(rel='stylesheet', media='screen', href='public/vendor/theme/css/bootstrap.css')
+    link(rel='stylesheet', href='public/vendor/theme/css/font-awesome/css/font-awesome.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/fontello/css/fontello.css')
+    link(rel='stylesheet', media='screen', href='public/vendor/theme/css/styles.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/animate.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/owl.carousel.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/owl.theme.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/responsive.css')
+    link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Montserrat:400,700')
+    link(href='http://fonts.googleapis.com/css?family=Pacifico', rel='stylesheet', type='text/css')
+    // color stylesheet
+    link(rel='stylesheet', href='public/vendor/theme/css/colors/color-sun-flower.css', title='sun-flower')
+  body
+    // Preloader
+    .mask
+      .bubblingG
+        span#bubblingG_1
+        span#bubblingG_2
+        span#bubblingG_3
+    // Preloader end
+    // START PAGE WRAPPER
+    #page-wrapper
+      // Section : Home
+      section#home.parallax(style="background-image: url('public/assets/img/bg/iceberg.jpg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+        .parallax-overlay
+          .container
+            .col-md-12
+              // Personal Info
+              .avater(style="background-image: url('public/assets/img/profile/profile-small.jpg');background-size: cover;")
+              .info
+                h1 Melanie Fryman
+                h2 Developer. Sociologist. Data Nerd. 
+              // Personal Info end
+              // View more
+              .gotosection
+                a(href='#about')
+                  i.fa.fa-angle-double-down
+              // View more end
+      // Section : Home end
+      // Navigation
+      .main-nav
+        nav.navbar.navbar-default(role='navigation')
+          .container-fluid
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav
+                li
+                  a.colapse-menu1.active(href='#home') Home
+                li
+                  a.colapse-menu1(href='#about') About
+                li
+                  a.colapse-menu1(href='#resume') Resume
+                li
+                  a.colapse-menu1(href='#skills') Skills
+                li
+                  a.colapse-menu1(href='#service') Service
+                li
+                  a.colapse-menu1(href='#portfolio') Portfolio
+                li
+                  a.colapse-menu1(href='#contact') Contact
+            // /.navbar-collapse
+          // /.container-fluid
+      // End of Navigation
+      
+      // Section : About
+      section#about.section
+        .container
+          // Section Title
+          .section-title
+            h1 About me
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+          // Section Title End
+          .row
+            .col-md-6
+              img.img-about(src='public/assets/img/profile/aboutme.jpg', alt='profile')
+            .col-md-6
+              h2 Melanie L. Fryman
+              h4 Developer, Sociologist, Data Nerd
+              p
+                | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
+              p
+                | Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
+              a.mt-button.large.outline(href='#') Download Printable Resume
+          //
+            div class="row">
+            <div class="col-md-6">
+            <a href="#" class="mt-button small outline">Small</a>
+            <br><br>
+            <a href="#" class="mt-button medium outline">Medium</a>
+            <br><br>
+            <a href="#" class="mt-button large outline">Largest</a>
+            </div>
+            <div class="col-md-6">
+            <a href="#" class="mt-button small outline rounded">Small</a>
+            <br><br>
+            <a href="#" class="mt-button medium outline rounded">Medium</a>
+            <br><br>
+            <a href="#" class="mt-button large outline rounded">Largest</a>
+            </div>
+            </div
+      // Section : About end
+      // Parallax Section
+      #another.parallax(style="background-image: url('public/assets/img/bg/rain.jpg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+        .parallax-overlay-2
+          .container
+            .row
+              .col-md-12
+                h1 &quot;Our lives begin to end the day we become silent about things that matter.&quot;
+                p - Martin Luther King Jr.
+      // Parallax Section End
+      // Section : Resume
+      section#resume.section
+        .container
+          // section title
+          .section-title
+            h1 My resume
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+          // section title end
+          // Experience Timeline
+          .row
+            .col-md-12
+              .timeline
+                // Item Head
+                .timeline-item
+                  .timeline-head
+                    span.fa.fa-lightbulb-o
+                      i
+                  .timeline-arrow
+                    i
+                  .timeline-head-content
+                    h3 Work Experience
+                // /Item Head end
+                // first item of timeline
+                .timeline-item
+                  .timeline-item-date 2013 - 2014
+                  // date
+                  // timeline item trigger
+                  .timeline-item-trigger
+                    span.fa.fa-minus(data-toggle='collapse', data-target='#job1')
+                      i
+                  // /end of timeline item trigger
+                  .timeline-arrow
+                    i
+                  // timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job1') Evaluation Specialist @ McREL International
+                    #job1.collapse.in
+                      p
+                        small.muted from Oct 2013 to June 2014
+                      h4.media-heading.primary-color Education Program Evaluation
+                      p
+                        | As an evaluation specialist, I conducted external evaluation activities for multiple projects including several initiatives funded by the U.S. Department of Education and the U.S. Department of Labor. In particular, I was involved in projects related to college and career readiness, access, and success and educator preparation and professional development.  My responsibilities included designing data collection instruments; collecting, preparing, and analyzing quantitative and qualitative data, including social network data; and developing reports and presentations of evaluation findings. I also specialized in survey design and administration methodology, and digital and gaming culture and learning.
+                        .col-md-6
+                          ul
+                            li Dataset management and analysis
+                            li Descriptive studies
+                            li External third-party reviews
+                            li Experimental and quasi-experimental designs
+                            li Instrument development and validation
+                        .col-md-6
+                          ul
+                            li Literature reviews &amp; research syntheses
+                            li Needs assessments
+                            li Outcome and impact studies
+                            li Process and implementation studies
+                            li Qualitative and quantitative methods
+                            li Social network analysis
+                  // /end of timeline main content
+                // /end of first item of timeline
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2011 - 2013
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#job2')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job2') Research &amp; Evaluaton Associate @ Edvantia, Inc
+                    #job2.collapse
+                      p
+                        small.muted from Aug 2011 to Oct 2013
+                      h4.media-heading.primary-color Education Program Evaluation
+                      p
+                        | Acquired by McREL International on October 1, 2013. See duties as described above.
+                  // /end of timeline content
+                // /end of timeline item
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2010 - 2011
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#job3')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job3') Graduate Assistant, Department of Sociology @ Middle Tennessee State University
+                    #job3.collapse
+                      p
+                        small.muted from 2010 to 2011
+                      h4.media-heading.primary-color Graduate Assistant, Department of Sociology
+                      p
+                        | Assisted in courses, including class lectures, tutoring students, and grading assignments.
+                      p
+                        | Courses:
+                        ul
+                          li Introduction to Sociology
+                          li Data Analysis/Statistics
+                          li Social Stratification
+                          li Medical Sociology
+                          li Social Theory (graduate level)
+                  // /end of timeline content
+                // /end of timeline item
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2010 - 2011
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#job4')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job4')
+                      | Graduate Student Representative, Department of Sociology @ Middle Tennessee State University
+                    #job3.collapse
+                      p
+                        small.muted from 2010 to 2011
+                      h4.media-heading.primary-color Graduate Student Representative, Department of Sociology
+                      p
+                        | Served as the liaison between faculty members and students.  organizing focus groups for an external program evaluation of the Department of Sociology, designing, implementing, and analyzing a student course preference survey, and creating and maintaining the department undergraduate FaceBook page. Additional duties included setting social media goals, gathering student feedback to understand how they use social media and determine social media content, posting departmental news and events, facilitating sociological discussions, responding to student questions, moderating comments, etc.
+                  // /end of timeline content
+                // /end of timeline item
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2010 - 2011
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#job5')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job5')
+                      | Graduate Student Representative, Institutional Review Board @ Middle Tennessee State University
+                    #job3.collapse
+                      p
+                        small.muted from 2010 to 2011
+                      h4.media-heading.primary-color Graduate Student Representative, Institutional Review Board
+                      p Served on the committee to review and monitor research involving human subjects.
+                  // /end of timeline content
+                // /end of timeline item
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2008 - 2009
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#job6')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#job6') Editorial Aid @ The Review of Religious Research
+                    #job4.collapse
+                      p
+                        small.muted from 2008 to 2009
+                      h4.media-heading.primary-color Tennessee State University
+                      p
+                        | Provided coediting support for former editor to prepare journal article submissions for publication. Duties included proofreading, revising, and formatting text, bibliographies, tables, and figures.
+                  // /end of timeline content
+                // /end of timeline item
+              // /Experience Timeline End
+              // Education Timeline
+              .timeline
+                // Item Head
+                .timeline-item
+                  .timeline-head
+                    span.li_study
+                      i
+                  .timeline-arrow
+                    i
+                  .timeline-head-content
+                    h3 Education
+                // /Item Head end
+                // first item of timeline
+                .timeline-item
+                  .timeline-item-date 2009 - 2011
+                  // date
+                  // timeline item trigger
+                  .timeline-item-trigger
+                    span.fa.fa-minus(data-toggle='collapse', data-target='#edu1')
+                      i
+                  // /end of timeline item trigger
+                  .timeline-arrow
+                    i
+                  // timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu1') M.A. Sociology
+                    #edu1.collapse.in
+                      p
+                        small.muted from 2009 to 2011
+                      h4.media-heading.primary-color Middle Tennessee State University, Murfreesboro, TN
+                      p Graduated with honors: summa cum laude.
+                      p
+                        | Thesis: Massively Multiplayer Online Role-Playing Game (MMORPG) Player Identity: An Application of Identity Control Theory
+                      p
+                        a.noprint(href='#', title='') &rarr; View website
+                  // /end of timeline main content
+                // /end of first item of timeline
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2006 - 2009
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#edu2')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu2') B.S. Sociology
+                    #edu2.collapse
+                      p
+                        small.muted from 2006 to 2009
+                      h4.media-heading.primary-color Tennessee State University, Nashville, TN
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
+                  // /end of timeline content
+                // /end of timeline item
+                // Timeline item
+                .timeline-item
+                  .timeline-item-date 2005 - 2006
+                  // date
+                  .timeline-item-trigger
+                    span.fa.fa-plus(data-toggle='collapse', data-target='#edu3')
+                      i
+                  .timeline-arrow
+                    i
+                  // Timeline main content
+                  .timeline-item-content
+                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu3') A.S. Social Science
+                    #edu3.collapse
+                      p
+                        small.muted from 2005 to 2006
+                      h4.media-heading.primary-color Thomas Nelson Community College, Hampton, VA
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
+                  // /end of timeline content
+              // /Education Timeline END
+      // Section : Resume END
+      
+      // Section : Skills
+      section#skills.section
+        .container
+          // section title
+          .section-title
+            h1 Skills
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+          // section title end
+          .row
+            .col-md-6
+              ul.skill
+                li
+                  .skill-wrap
+                    span(data-width='75')
+                      strong Web App Development
+                li
+                  .skill-wrap
+                    span(data-width='65')
+                      strong Mobile App Development
+                li
+                  .skill-wrap
+                    span(data-width='80')
+                      strong User Experience/Interface
+            .col-md-6
+              ul.skill
+                li
+                  .skill-wrap
+                    span(data-width='95')
+                      strong Data Collection &amp; Analysis
+                li
+                  .skill-wrap
+                    span(data-width='98')
+                      strong Survey Methodology
+                li
+                  .skill-wrap
+                    span(data-width='65')
+                      strong Social Network Analysis
+          // skills END
+      // Section : skills END
+      
+      // Parallax Section
+      #hire.parallax(style="background-image: url('public/assets/img/bg/trickle.jpeg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+        .parallax-overlay-2
+          .container
+            .row
+              .col-md-12
+                h1 I Am Available for Hire!
+                a.mt-button.large.outline(href='#contact') Hire Me
+      // Parallax Section END
+      
+      // Section : Service
+      section#service.section
+        .container
+          // section title
+          .section-title
+            h1 what i can provide
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+          // section title end
+          .row
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_bulb
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_camera
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_params
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_lab
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_settings
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_cloud
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_phone
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_bubble
+              h5 User Experience
+              p
+                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+      // Section : Service END
+      
+      // Parallax Section
+      #wprocess.parallax(style="background-image: url('public/assets/img/bg/drops.jpeg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+        .parallax-overlay-2
+          .container
+            // Title
+            .title
+              h1 Work Process
+              span.border
+            // Title
+            .row
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.icon-lamp
+                    h4 IDEA
+                // work_process
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.fa.fa-puzzle-piece
+                    h4 CONCEPT
+                // work_process
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.icon-brush
+                    h4 DESIGN
+                // work_process
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.fa.fa-code
+                    h4 DEVELOP
+                // work_process
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.fa.fa-bug
+                    h4 TEST
+                // work_process
+              .col-xs-6.col-sm-4.col-md-2
+                // work_process
+                .work_process
+                  .work_process-box
+                    i.fa.fa-rocket
+                    h4 LAUNCH
+                // work_process
+      // Parallax Section END
+      
+      // Section : Portfolio
+      section#portfolio.section
+        .container
+          // section title
+          .section-title
+            h1 Portfolio
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.
+          // section title end
+          .portfolio-start
+          // Project Details
+          #project-details-box
+            #project-data
+          // /Project Details end
+          // #options
+          #options.clearfix
+            ul#filters.option-set.clearfix(data-option-key='filter')
+              li
+                a.selected(href='#filter', data-option-value='*') all works
+              li
+                a(href='#filter', data-option-value='.webdesign') AngularJS
+              li
+                a(href='#filter', data-option-value='.uidesign') Mobile
+              li
+                a(href='#filter', data-option-value='.branding') Games
+              li
+                a(href='#filter', data-option-value='.logodesign') Research
+              li
+                a(href='#filter', data-option-value='.illustration') Program Evaluation
+              li
+                a(href='#filter', data-option-value='.photography') Presentations
+          // #options END
+          
+          // Portfolio container
+          .portfolio-container
+            // Portfolio Item
+            .portfolio-item.mt.uidesign.logodesign
+              a.project-link(href='public/views/projects/project1.html', title='Wobbly Who')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 1')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Wobbly Who
+                    p.item-type Game
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.webdesign.logodesign.photography
+              a.project-link(href='public/views/projects/project2.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 2')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Slider
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.uidesign.photography
+              a.project-link(href='public/views/projects/project3.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 3')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Video
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.webdesign
+              a.project-link(href='public/views/projects/project4.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 4')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Slider
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.branding.logodesign.photography
+              a.project-link(href='public/views/projects/project5.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 5')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Video
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.webdesign.illustration
+              a.project-link(href='public/views/projects/project6.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 6')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Slider
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.branding.illustration
+              a.project-link(href='public/views/projects/project7.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 7')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Video
+            // /Portfolio Item
+            // Portfolio Item
+            .portfolio-item.mt.webdesign.illustration
+              a.project-link(href='public/views/projects/project8.html', title='Open Project')
+                .portfolio-image
+                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 8')
+                .item-overlay
+                  .item-info
+                    .zoom-icon
+                    h4.item-name Project Title
+                    p.item-type Slider
+            // /Portfolio Item
+          // Portfolio container end
+      // Section : Portfolio END
+      
+      // Parallax Section
+      #twitter.parallax(style="background-image: url('public/assets/img/bg/kitty-nose.jpg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+        .parallax-overlay-2
+          .container
+            // twitter feed
+            // Title
+            .title
+              i.icon-twitter
+            // Title
+            article#tweet-sroll-wrapper.clearfix
+              .tweets-list-container.tweets-list-container-with-logo.logo
+            // twitter feed end
+      // Parallax Section END
+      
+      // Section : Contact
+      section#contact.section
+        .container
+          // section title
+          .section-title
+            h1 Contact me
+            span.border
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+          // section title end
+          .row
+            .col-md-6
+              h2 LET&apos;S GET IN TOUCH
+              ul.get_in
+                li
+                  i.fa.fa-envelope-o
+                  p melanie@frymanet.com
+                li
+                  i.fa.fa-phone
+                  p 615.973.8933
+                li
+                  i.fa.fa-map-marker
+                  p Nashville, TN, U.S.A.
+                li
+                  a(href='#')
+                    i.fa.fa-cloud-download
+                    p Download Vcard
+              // social Icons
+              ul.social
+                li
+                  a.twitter(href='https://twitter.com/mlfryman')
+                li
+                  a.linkedin(href='https://www.linkedin.com/in/mlfryman')
+                li
+                  a.github(href='https://github.com/mlfryman')
+              // social Icons end
+            .col-md-6
+              h2 DROP ME A LINE
+              // contact from
+              form#form.form(method='post', action='public/contact.php')
+                input(type='text', name='name', placeholder='Name', required='')
+                input(type='text', name='email', placeholder='Email', required='')
+                textarea(name='message', placeholder='Message', rows='8')
+                input#submit.mt-button.medium.outline(type='submit', value='Send Message')
+              span.sending
+                | sending...
+              .mess.center
+              // contact from end
+      // Section : Contact END
+      
+      // Footer
+      footer
+        .container
+          .copyright  &copy; 2014 - Melanie L. Fryman
+      // Footer END
+    // END PAGE WRAPPER
+    
+    // JavaScript
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.js')
+    script(type='text/javascript', src='public/vendor/theme/js/bootstrap.min.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.nav.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.scrollTo.js')
+    script(type='text/javascript', src='public/vendor/theme/js/scripts.js')
+    script(type='text/javascript', src='http://maps.googleapis.com/maps/api/js?sensor=false')
+    script(type='text/javascript', src='public/vendor/theme/js/gmap3.js')
+    script(type='text/javascript', src='public/vendor/theme/js/appear.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.form.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.ufvalidator-1.0.5.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.isotope.min.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.easing-1.3.pack.js')
+    script(type='text/javascript', src='public/vendor/theme/js/styleswitcher.js')
+    script(type='text/javascript', src='public/vendor/theme/js/owl.carousel.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.parallax-1.1.3.js')
+    script(type='text/javascript', src='public/vendor/theme/js/skrollr.js')
+    script(type='text/javascript', src='public/vendor/theme/js/tweetscroll/jquery.tweetscroll.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.nicescroll.min.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.sticky.js')
+    script(type='text/javascript', src='public/vendor/theme/js/another.js')
+    script(type='text/javascript', src='public/vendor/theme/js/metro.js')
