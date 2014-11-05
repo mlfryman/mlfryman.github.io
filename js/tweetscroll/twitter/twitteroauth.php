@@ -36,9 +36,6 @@ class TwitterOAuth {
   /* Immediately retry the API call if the response was not successful. */
   //public $retry = TRUE;
 
-
-
-
   /**
    * Set API URLS
    */
@@ -65,7 +62,6 @@ class TwitterOAuth {
       $this->token = NULL;
     }
   }
-
 
   /**
    * Get a request_token from Twitter
@@ -123,7 +119,7 @@ class TwitterOAuth {
    *                "user_id" => "9436992",
    *                "screen_name" => "abraham",
    *                "x_auth_expires" => "0")
-   */  
+   */
   function getXAuthToken($username, $password) {
     $parameters = array();
     $parameters['x_auth_username'] = $username;
@@ -145,7 +141,7 @@ class TwitterOAuth {
     }
     return $response;
   }
-  
+
   /**
    * POST wrapper for oAuthRequest.
    */
