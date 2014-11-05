@@ -88,6 +88,7 @@ module.exports = function(grunt){
     // ---------------------------------------------------------------------- //
   });
 
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-jscs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -96,6 +97,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   grunt.registerTask('deploy', ['clean', 'build', 'shell:bower']);
   grunt.registerTask('build', ['jshint:all', 'jscs', 'jade', 'less', 'copy:js', 'copy:assets', 'copy:favicon']);
