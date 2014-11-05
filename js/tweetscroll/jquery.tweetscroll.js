@@ -1,7 +1,7 @@
-/* 
+/*
  * TweetScroll jQuery Plugin
  * Author: Pixel Industry
- * Author URL : http://pixel-industry.com
+ * Author URL
  * Version: 1.2
  *
  * jQuery plugin to load latest Twitter tweets.
