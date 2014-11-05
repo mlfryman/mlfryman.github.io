@@ -4,10 +4,10 @@ require_once("twitteroauth.php"); //Path to twitteroauth library
 
 $twitteruser = $_GET['username'];
 $notweets = $_GET['limit'];
-$consumerkey = "m4Pxps8noTTXscPvXCvvQ";
-$consumersecret = "vCbcWZOEnMM9uAzoB3BrmeSaZH37OCh9MttDHgWEBA";
-$accesstoken = "1186308073-66t7TVdxdI4nWgQwHvGiCy89jcvoQFP8iflq8z4";
-$accesstokensecret = "pMv13TBEnMjzwN2iYvhFMgwMUlZxCzhCviEGxtSE";
+$consumerkey = "SmNZSWqH6sDalZ2Bvhkk4rvFk";
+$consumersecret = "SjsfrYStwMvQbWcmN37dwWQswMxP7jZ7ZhCRimNr0KpWte177R";
+$accesstoken = "37436396-uXtFEoN1Rf5soB7yYbTqhWnqsHTw9viULsgQiEbIb";
+$accesstokensecret = "GsbvMAzBk1ZnuiYJ774SdyZQKTfmYcaKyQDe3A7xwYAFc";
 
 function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
   $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
