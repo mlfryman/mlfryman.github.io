@@ -22,18 +22,19 @@ html.not-ie(lang='en')
     link(rel='apple-touch-icon', sizes='114x114', href='public/assets/img/icons/apple-touch-icon-114x114.png')
     //if lt IE 9
       script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
-    // style sheet
-    link(rel='stylesheet', media='screen', href='public/vendor/theme/css/bootstrap.css')
-    link(rel='stylesheet', href='public/vendor/theme/css/font-awesome/css/font-awesome.css')
+        
+    // vendor stylesheets
+    link(rel='stylesheet', media='screen',  href='public/vendor/theme/css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/font-awesome/css/font-awesome.min.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/fontello/css/fontello.css')
-    link(rel='stylesheet', media='screen', href='public/vendor/theme/css/styles.css')
+    link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/devicons/css/devicons.min.css')
+    link(rel='stylesheet', media='screen',  href='public/vendor/theme/css/styles.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/animate.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/owl.carousel.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/owl.theme.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/responsive.css')
     link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Montserrat:400,700')
-    link(href='http://fonts.googleapis.com/css?family=Pacifico', rel='stylesheet', type='text/css')
-    // color stylesheet
+    link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Pacifico')
     link(rel='stylesheet', href='public/vendor/theme/css/colors/color-sun-flower.css', title='sun-flower')
   body
     // Preloader
@@ -61,7 +62,8 @@ html.not-ie(lang='en')
                 a(href='#about')
                   i.fa.fa-angle-double-down
               // View more end
-      // Section : Home end
+      // Section : Home END
+      
       // Navigation
       .main-nav
         nav.navbar.navbar-default(role='navigation')
@@ -92,7 +94,7 @@ html.not-ie(lang='en')
                   a.colapse-menu1(href='#contact') Contact
             // /.navbar-collapse
           // /.container-fluid
-      // End of Navigation
+      // END of Navigation
       
       // Section : About
       section#about.section
@@ -351,6 +353,89 @@ html.not-ie(lang='en')
                         small.muted from June 2014 to present
                       h4.media-heading.primary-color Nashville, TN
                       p WEB DEVELOPER BOOTCAMP: Intensive training &amp; focused career preparation
+                      p Sample of technologies learned:
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-javascript
+                        .col-md-2
+                          i.devicons.devicons-github_badge
+                        .col-md-2
+                          i.devicons.devicons-markdown
+                        .col-md-2
+                          i.devicons.devicons-database
+                        .col-md-2
+                          i.devicons.devicons-javascript
+                        .col-md-2
+                          i.devicons.devicons-angular
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-jquery_ui
+                        .col-md-2
+                          i.devicons.devicons-nodejs
+                        .col-md-2
+                          i.devicons.devicons-javascript_shield
+                        .col-md-2
+                          i.devicons.devicons-bootstrap
+                        .col-md-2
+                          i.devicons.devicons-sass
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-less
+                        .col-md-2
+                          i.devicons.devicons-css3
+                        .col-md-2
+                          i.devicons.devicons-css3_full
+                        .col-md-2
+                          i.devicons.devicons-html5
+                        .col-md-2
+                          i.devicons.devicons-grunt
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-bower
+                        .col-md-2
+                          i.devicons.devicons-gulp
+                        .col-md-2
+                          i.devicons.devicons-npm
+                        .col-md-2
+                          i.devicons.devicons-ubuntu
+                        .col-md-2
+                          i.devicons.devicons-android
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-apple
+                        .col-md-2
+                          i.devicons.devicons-appstore
+                        .col-md-2
+                          i.devicons.devicons-phonegap
+                        .col-md-2
+                          i.devicons.devicons-atom
+                        .col-md-2
+                          i.devicons.devicons-redis
+                        .col-md-2
+                          i.devicons.devicons-requirejs
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-heroku
+                        .col-md-2
+                          i.devicons.devicons-travis
+                        .col-md-2
+                          i.devicons.devicons-yeoman
+                        .col-md-2
+                          i.devicons.devicons-javascript_badge
+                        .col-md-2
+                          i.devicons.devicons-terminal
+                        .col-md-2
+                          i.devicons.devicons-terminal_badge
+                      .row
+                        .col-md-2
+                          i.devicons.devicons-code
+                        .col-md-2
+                          i.devicons.devicons-code_badge
+                        .col-md-2
+                          i.devicons.devicons-responsive
+                        .col-md-2
+                          i.devicons.devicons-mongodb
+
                       p
                         a.noprint(href='http://nashvillesoftwareschool.com', title='NSS') &rarr; View website
                   // /end of timeline main content
@@ -372,9 +457,11 @@ html.not-ie(lang='en')
                       p
                         small.muted from 2009 to 2011
                       h4.media-heading.primary-color Middle Tennessee State University, Murfreesboro, TN
-                      p Graduated with honors: summa cum laude.
+                      p Graduated with honors: summa cum laude
                       p
                         | Thesis: Massively Multiplayer Online Role-Playing Game (MMORPG) Player Identity: An Application of Identity Control Theory
+                      p  
+                        | Using online surveys, I apply identity control theory to the massively multiplayer online role-playing game (MMORPG) player identity and test relationships between commitment, identity salience, and identity-verifying behavior. Given the debate over the isolating effects of online gaming, I also examine the relationship between self-verifying behavior (amount of time spent playing MMORPGs a week) and real-world social interaction. This study provides compelling support for identity control theory, indicating strong relationships between commitment, identity salience, and identity-verifying behavior. MMORPG players with high levels of commitment and identity salience tend to spend more time in game, and report lower levels of real-world social interaction. However, cautious interpretation is needed due to the limitations of this study; results do not clearly indicate that online gamers are socially isolated. Implications of findings and areas for theoretical development are discussed.
                       p
                         a.noprint(href='#', title='') &rarr; View website
                   // /end of timeline content
@@ -397,8 +484,11 @@ html.not-ie(lang='en')
                       p
                         small.muted from 2006 to 2009
                       h4.media-heading.primary-color Tennessee State University, Nashville, TN
+                      p Graduated with honors: summa cum laude
                       p
-                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
+                        | Senior Project: A Retrospective Examination of Race Differences in the Onset of Criminal Careers among Incarcerated Men
+                      p  
+                        | Research on incarceration suggests prison is a life cycle stage for many American males, but this life stage is not uniform across race.  Using data from the 2004 Bureau of Justice Statistics Survey of Inmates in Federal Correctional Facilities, I examine the timing and social context of men’s entry into this life stage.  Using hierarchical multiple linear regression, I estimate the impact of race on inmates’ age at their first arrest. Four models are utilized to reveal interactions between race and independent variable blocks on age of first arrest.  Using unstandardized regression coefficients, I find that African Americans are arrested roughly 3 three years earlier than their Caucasian counterparts.  My analysis reveals that greater entrenchment in peer criminal networks contribute to Black males’ earlier involvement in the criminal justice system.
                   // /end of timeline content
                 // /end of timeline item
                 // Timeline item
@@ -417,8 +507,7 @@ html.not-ie(lang='en')
                       p
                         small.muted from 2005 to 2006
                       h4.media-heading.primary-color Thomas Nelson Community College, Hampton, VA
-                      p
-                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
+                      p Graduated with honors: summa cum laude
                   // /end of timeline content
               // /Education Timeline END
       // Section : Resume END
@@ -439,15 +528,15 @@ html.not-ie(lang='en')
                 li
                   .skill-wrap
                     span(data-width='75')
-                      strong Web App Development
+                      strong MEAN Stack
                 li
                   .skill-wrap
                     span(data-width='65')
-                      strong Mobile App Development
+                      strong Mobile Dev
                 li
                   .skill-wrap
                     span(data-width='80')
-                      strong User Experience/Interface
+                      strong Game Dev
             .col-md-6
               ul.skill
                 li
@@ -488,52 +577,52 @@ html.not-ie(lang='en')
           .row
             .service-item.col-xs-12.col-sm-4.col-md-3
               span.icon
-                i.li_bulb
-              h5 User Experience
+                i.fa.fa-desktop
+              h5 MEAN Stack
               p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_camera
-              h5 User Experience
-              p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_params
-              h5 User Experience
-              p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_lab
-              h5 User Experience
-              p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_settings
-              h5 User Experience
-              p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_cloud
-              h5 User Experience
-              p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
             .service-item.col-xs-12.col-sm-4.col-md-3
               span.icon
                 i.li_phone
-              h5 User Experience
+              h5 Mobile Dev
               p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
             .service-item.col-xs-12.col-sm-4.col-md-3
               span.icon
-                i.li_bubble
+                i.fa.fa-gamepad
+              h5 Game Dev
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-lightbulb-o
               h5 User Experience
               p
-                | At the heart of everything we do lies a great user experience. We take pride in our interfaces and really think and test them through
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-magic
+              h5 User Interface
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_data
+              h5 Data Analysis
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_study
+              h5 Research
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_world
+              h5 Cultural Context
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
       // Section : Service END
       
       // Parallax Section
