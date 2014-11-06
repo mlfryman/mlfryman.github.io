@@ -48,6 +48,7 @@ html.not-ie(lang='en')
     #page-wrapper
       // Section : Home
       section#home.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      section#home.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
         .parallax-overlay
           .container
             .col-md-12
@@ -156,6 +157,196 @@ html.not-ie(lang='en')
             p
               | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
           // section title END
+          
+          // Education Timeline
+          .timeline
+            // Item Head
+            .timeline-item
+              .timeline-head
+                span.li_study
+                  i
+              .timeline-arrow
+                i
+              .timeline-head-content
+                h3 Education
+            // /Item Head end
+            // first item of timeline
+            .timeline-item
+              .timeline-item-date 2014 - present
+              // date
+              // timeline item trigger
+              .timeline-item-trigger
+                span.fa.fa-minus(data-toggle='collapse', data-target='#edu1')
+                  i
+              // /end of timeline item trigger
+              .timeline-arrow
+                i
+              // timeline main content
+              .timeline-item-content
+                h3.timeline-item-title(data-toggle='collapse', data-target='#edu1') Nashville Software School
+                #edu1.collapse.in
+                  p
+                    small.muted from June 2014 to present
+                  h4.media-heading.primary-color Nashville, TN
+                  p WEB DEVELOPER BOOTCAMP: Intensive training &amp; focused career preparation
+                  p Sample of technologies learned:
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-javascript
+                    .col-md-2
+                      i.devicons.devicons-github_badge
+                    .col-md-2
+                      i.devicons.devicons-markdown
+                    .col-md-2
+                      i.devicons.devicons-database
+                    .col-md-2
+                      i.devicons.devicons-javascript
+                    .col-md-2
+                      i.devicons.devicons-angular
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-jquery_ui
+                    .col-md-2
+                      i.devicons.devicons-nodejs
+                    .col-md-2
+                      i.devicons.devicons-javascript_shield
+                    .col-md-2
+                      i.devicons.devicons-bootstrap
+                    .col-md-2
+                      i.devicons.devicons-sass
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-less
+                    .col-md-2
+                      i.devicons.devicons-css3
+                    .col-md-2
+                      i.devicons.devicons-css3_full
+                    .col-md-2
+                      i.devicons.devicons-html5
+                    .col-md-2
+                      i.devicons.devicons-grunt
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-bower
+                    .col-md-2
+                      i.devicons.devicons-gulp
+                    .col-md-2
+                      i.devicons.devicons-npm
+                    .col-md-2
+                      i.devicons.devicons-ubuntu
+                    .col-md-2
+                      i.devicons.devicons-android
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-apple
+                    .col-md-2
+                      i.devicons.devicons-appstore
+                    .col-md-2
+                      i.devicons.devicons-phonegap
+                    .col-md-2
+                      i.devicons.devicons-atom
+                    .col-md-2
+                      i.devicons.devicons-redis
+                    .col-md-2
+                      i.devicons.devicons-requirejs
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-heroku
+                    .col-md-2
+                      i.devicons.devicons-travis
+                    .col-md-2
+                      i.devicons.devicons-yeoman
+                    .col-md-2
+                      i.devicons.devicons-javascript_badge
+                    .col-md-2
+                      i.devicons.devicons-terminal
+                    .col-md-2
+                      i.devicons.devicons-terminal_badge
+                  .row
+                    .col-md-2
+                      i.devicons.devicons-code
+                    .col-md-2
+                      i.devicons.devicons-code_badge
+                    .col-md-2
+                      i.devicons.devicons-responsive
+                    .col-md-2
+                      i.devicons.devicons-mongodb
+
+                  p
+                    a.noprint(href='http://nashvillesoftwareschool.com', title='NSS') &rarr; View website
+              // /end of timeline main content
+            // /end of first item of timeline
+            
+            // Timeline item
+            .timeline-item
+              .timeline-item-date 2006 - 2009
+              // date
+              .timeline-item-trigger
+                span.fa.fa-plus(data-toggle='collapse', data-target='#edu2')
+                  i
+              .timeline-arrow
+                i
+              // Timeline main content
+              .timeline-item-content
+                h3.timeline-item-title(data-toggle='collapse', data-target='#edu2') M.A. Sociology
+                #edu2.collapse
+                  p
+                    small.muted from 2009 to 2011
+                  h4.media-heading.primary-color Middle Tennessee State University, Murfreesboro, TN
+                  p Graduated with honors: summa cum laude
+                  p
+                    | Thesis: Massively Multiplayer Online Role-Playing Game (MMORPG) Player Identity: An Application of Identity Control Theory
+                  p  
+                    | Using online surveys, I apply identity control theory to the massively multiplayer online role-playing game (MMORPG) player identity and test relationships between commitment, identity salience, and identity-verifying behavior. Given the debate over the isolating effects of online gaming, I also examine the relationship between self-verifying behavior (amount of time spent playing MMORPGs a week) and real-world social interaction. This study provides compelling support for identity control theory, indicating strong relationships between commitment, identity salience, and identity-verifying behavior. MMORPG players with high levels of commitment and identity salience tend to spend more time in game, and report lower levels of real-world social interaction. However, cautious interpretation is needed due to the limitations of this study; results do not clearly indicate that online gamers are socially isolated. Implications of findings and areas for theoretical development are discussed.
+                  p
+                    a.noprint(href='#', title='') &rarr; View website
+              // /end of timeline content
+            // /end of timeline item
+            
+            
+            // Timeline item
+            .timeline-item
+              .timeline-item-date 2006 - 2009
+              // date
+              .timeline-item-trigger
+                span.fa.fa-plus(data-toggle='collapse', data-target='#edu3')
+                  i
+              .timeline-arrow
+                i
+              // Timeline main content
+              .timeline-item-content
+                h3.timeline-item-title(data-toggle='collapse', data-target='#edu3') B.S. Sociology
+                #edu3.collapse
+                  p
+                    small.muted from 2006 to 2009
+                  h4.media-heading.primary-color Tennessee State University, Nashville, TN
+                  p Graduated with honors: summa cum laude
+                  p
+                    | Senior Project: A Retrospective Examination of Race Differences in the Onset of Criminal Careers among Incarcerated Men
+                  p  
+                    | Research on incarceration suggests prison is a life cycle stage for many American males, but this life stage is not uniform across race.  Using data from the 2004 Bureau of Justice Statistics Survey of Inmates in Federal Correctional Facilities, I examine the timing and social context of men’s entry into this life stage.  Using hierarchical multiple linear regression, I estimate the impact of race on inmates’ age at their first arrest. Four models are utilized to reveal interactions between race and independent variable blocks on age of first arrest.  Using unstandardized regression coefficients, I find that African Americans are arrested roughly 3 three years earlier than their Caucasian counterparts.  My analysis reveals that greater entrenchment in peer criminal networks contribute to Black males’ earlier involvement in the criminal justice system.
+              // /end of timeline content
+            // /end of timeline item
+            // Timeline item
+            .timeline-item
+              .timeline-item-date 2005 - 2006
+              // date
+              .timeline-item-trigger
+                span.fa.fa-plus(data-toggle='collapse', data-target='#edu4')
+                  i
+              .timeline-arrow
+                i
+              // Timeline main content
+              .timeline-item-content
+                h3.timeline-item-title(data-toggle='collapse', data-target='#edu4') A.S. Social Science
+                #edu4.collapse
+                  p
+                    small.muted from 2005 to 2006
+                  h4.media-heading.primary-color Thomas Nelson Community College, Hampton, VA
+                  p Graduated with honors: summa cum laude
+              // /end of timeline content
+          // /Education Timeline END
+          
           // Experience Timeline
           .row
             .col-md-12
@@ -322,194 +513,7 @@ html.not-ie(lang='en')
                 // /end of timeline item
               // /Experience Timeline End
               
-              // Education Timeline
-              .timeline
-                // Item Head
-                .timeline-item
-                  .timeline-head
-                    span.li_study
-                      i
-                  .timeline-arrow
-                    i
-                  .timeline-head-content
-                    h3 Education
-                // /Item Head end
-                // first item of timeline
-                .timeline-item
-                  .timeline-item-date 2014 - present
-                  // date
-                  // timeline item trigger
-                  .timeline-item-trigger
-                    span.fa.fa-minus(data-toggle='collapse', data-target='#edu1')
-                      i
-                  // /end of timeline item trigger
-                  .timeline-arrow
-                    i
-                  // timeline main content
-                  .timeline-item-content
-                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu1') Nashville Software School
-                    #edu1.collapse.in
-                      p
-                        small.muted from June 2014 to present
-                      h4.media-heading.primary-color Nashville, TN
-                      p WEB DEVELOPER BOOTCAMP: Intensive training &amp; focused career preparation
-                      p Sample of technologies learned:
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-javascript
-                        .col-md-2
-                          i.devicons.devicons-github_badge
-                        .col-md-2
-                          i.devicons.devicons-markdown
-                        .col-md-2
-                          i.devicons.devicons-database
-                        .col-md-2
-                          i.devicons.devicons-javascript
-                        .col-md-2
-                          i.devicons.devicons-angular
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-jquery_ui
-                        .col-md-2
-                          i.devicons.devicons-nodejs
-                        .col-md-2
-                          i.devicons.devicons-javascript_shield
-                        .col-md-2
-                          i.devicons.devicons-bootstrap
-                        .col-md-2
-                          i.devicons.devicons-sass
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-less
-                        .col-md-2
-                          i.devicons.devicons-css3
-                        .col-md-2
-                          i.devicons.devicons-css3_full
-                        .col-md-2
-                          i.devicons.devicons-html5
-                        .col-md-2
-                          i.devicons.devicons-grunt
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-bower
-                        .col-md-2
-                          i.devicons.devicons-gulp
-                        .col-md-2
-                          i.devicons.devicons-npm
-                        .col-md-2
-                          i.devicons.devicons-ubuntu
-                        .col-md-2
-                          i.devicons.devicons-android
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-apple
-                        .col-md-2
-                          i.devicons.devicons-appstore
-                        .col-md-2
-                          i.devicons.devicons-phonegap
-                        .col-md-2
-                          i.devicons.devicons-atom
-                        .col-md-2
-                          i.devicons.devicons-redis
-                        .col-md-2
-                          i.devicons.devicons-requirejs
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-heroku
-                        .col-md-2
-                          i.devicons.devicons-travis
-                        .col-md-2
-                          i.devicons.devicons-yeoman
-                        .col-md-2
-                          i.devicons.devicons-javascript_badge
-                        .col-md-2
-                          i.devicons.devicons-terminal
-                        .col-md-2
-                          i.devicons.devicons-terminal_badge
-                      .row
-                        .col-md-2
-                          i.devicons.devicons-code
-                        .col-md-2
-                          i.devicons.devicons-code_badge
-                        .col-md-2
-                          i.devicons.devicons-responsive
-                        .col-md-2
-                          i.devicons.devicons-mongodb
-
-                      p
-                        a.noprint(href='http://nashvillesoftwareschool.com', title='NSS') &rarr; View website
-                  // /end of timeline main content
-                // /end of first item of timeline
-                
-                // Timeline item
-                .timeline-item
-                  .timeline-item-date 2006 - 2009
-                  // date
-                  .timeline-item-trigger
-                    span.fa.fa-plus(data-toggle='collapse', data-target='#edu2')
-                      i
-                  .timeline-arrow
-                    i
-                  // Timeline main content
-                  .timeline-item-content
-                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu2') M.A. Sociology
-                    #edu2.collapse
-                      p
-                        small.muted from 2009 to 2011
-                      h4.media-heading.primary-color Middle Tennessee State University, Murfreesboro, TN
-                      p Graduated with honors: summa cum laude
-                      p
-                        | Thesis: Massively Multiplayer Online Role-Playing Game (MMORPG) Player Identity: An Application of Identity Control Theory
-                      p  
-                        | Using online surveys, I apply identity control theory to the massively multiplayer online role-playing game (MMORPG) player identity and test relationships between commitment, identity salience, and identity-verifying behavior. Given the debate over the isolating effects of online gaming, I also examine the relationship between self-verifying behavior (amount of time spent playing MMORPGs a week) and real-world social interaction. This study provides compelling support for identity control theory, indicating strong relationships between commitment, identity salience, and identity-verifying behavior. MMORPG players with high levels of commitment and identity salience tend to spend more time in game, and report lower levels of real-world social interaction. However, cautious interpretation is needed due to the limitations of this study; results do not clearly indicate that online gamers are socially isolated. Implications of findings and areas for theoretical development are discussed.
-                      p
-                        a.noprint(href='#', title='') &rarr; View website
-                  // /end of timeline content
-                // /end of timeline item
-                
-                
-                // Timeline item
-                .timeline-item
-                  .timeline-item-date 2006 - 2009
-                  // date
-                  .timeline-item-trigger
-                    span.fa.fa-plus(data-toggle='collapse', data-target='#edu3')
-                      i
-                  .timeline-arrow
-                    i
-                  // Timeline main content
-                  .timeline-item-content
-                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu3') B.S. Sociology
-                    #edu3.collapse
-                      p
-                        small.muted from 2006 to 2009
-                      h4.media-heading.primary-color Tennessee State University, Nashville, TN
-                      p Graduated with honors: summa cum laude
-                      p
-                        | Senior Project: A Retrospective Examination of Race Differences in the Onset of Criminal Careers among Incarcerated Men
-                      p  
-                        | Research on incarceration suggests prison is a life cycle stage for many American males, but this life stage is not uniform across race.  Using data from the 2004 Bureau of Justice Statistics Survey of Inmates in Federal Correctional Facilities, I examine the timing and social context of men’s entry into this life stage.  Using hierarchical multiple linear regression, I estimate the impact of race on inmates’ age at their first arrest. Four models are utilized to reveal interactions between race and independent variable blocks on age of first arrest.  Using unstandardized regression coefficients, I find that African Americans are arrested roughly 3 three years earlier than their Caucasian counterparts.  My analysis reveals that greater entrenchment in peer criminal networks contribute to Black males’ earlier involvement in the criminal justice system.
-                  // /end of timeline content
-                // /end of timeline item
-                // Timeline item
-                .timeline-item
-                  .timeline-item-date 2005 - 2006
-                  // date
-                  .timeline-item-trigger
-                    span.fa.fa-plus(data-toggle='collapse', data-target='#edu4')
-                      i
-                  .timeline-arrow
-                    i
-                  // Timeline main content
-                  .timeline-item-content
-                    h3.timeline-item-title(data-toggle='collapse', data-target='#edu4') A.S. Social Science
-                    #edu4.collapse
-                      p
-                        small.muted from 2005 to 2006
-                      h4.media-heading.primary-color Thomas Nelson Community College, Hampton, VA
-                      p Graduated with honors: summa cum laude
-                  // /end of timeline content
-              // /Education Timeline END
+              
       // Section : Resume END
       
       // Section : Skills
@@ -687,7 +691,7 @@ html.not-ie(lang='en')
             h1 Portfolio
             span.border
             p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.
+              | Checkout some of my apps!
           // section title end
           .portfolio-start
           // Project Details
