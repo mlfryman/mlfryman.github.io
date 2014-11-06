@@ -58,9 +58,6 @@ jQuery(document).ready(function($) {
   		/*add as necessary*/
   }
 
-
-
-
 //onepage nav
 /*
       $('#navs').onePageNav({
@@ -109,8 +106,6 @@ jQuery(document).ready(function($) {
   $(this).attr('class', 'active');
   });
 
-
-
 // Appear Animations
 	$('*').each(function(){
 		if(jQuery(this).attr('data-animation')) {
@@ -121,18 +116,17 @@ jQuery(document).ready(function($) {
 			}
 		});
 
-//Twitter
-  $('.tweets-list-container').tweetscroll({
-    username: 'envatowebdesign',
-    time: true,
-    limit: 11,
-    replies: true,
-    position: 'append',
-    date_format: 'style2',
-    animation: 'slide_up',
-    visible_tweets: 1
-  });
-
+// //Twitter
+//   $('.tweets-list-container').tweetscroll({
+//     username: 'envatowebdesign',
+//     time: true,
+//     limit: 11,
+//     replies: true,
+//     position: 'append',
+//     date_format: 'style2',
+//     animation: 'slide_up',
+//     visible_tweets: 1
+//   });
 
 //tooltips
     $(document).ready(function ()
