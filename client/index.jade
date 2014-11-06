@@ -56,7 +56,7 @@ html.not-ie(lang='en')
               .avater(style="background-image: url('public/assets/img/profile/profile.jpg');background-size: cover;")
               .info
                 h1 Melanie Fryman
-                h2 Developer. Sociologist. Data Nerd. 
+                h2 Developer. Data Nerd. Sociologist. 
               // Personal Info end
               // View more
               .gotosection
@@ -112,7 +112,7 @@ html.not-ie(lang='en')
               img.img-about(src='public/assets/img/profile/aboutme.jpg', alt='aboutme')
             .col-md-6
               h2 Melanie L. Fryman
-              h4 Developer. Sociologist. Data Nerd
+              h4 Developer. Data Nerd. Sociologist.
               p
                 | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
               p
@@ -224,6 +224,8 @@ html.not-ie(lang='en')
                       i.devicons.devicons-html5
                     .col-md-2
                       i.devicons.devicons-grunt
+                    .col-md-2
+                      i.devicons.devicons-code_badge
                   .row
                     .col-md-2
                       i.devicons.devicons-bower
@@ -235,6 +237,8 @@ html.not-ie(lang='en')
                       i.devicons.devicons-ubuntu
                     .col-md-2
                       i.devicons.devicons-android
+                    .col-md-2
+                      i.devicons.devicons-code
                   .row
                     .col-md-2
                       i.devicons.devicons-apple
@@ -248,6 +252,8 @@ html.not-ie(lang='en')
                       i.devicons.devicons-redis
                     .col-md-2
                       i.devicons.devicons-requirejs
+                    .col-md-2
+                      i.devicons.devicons-responsive
                   .row
                     .col-md-2
                       i.devicons.devicons-heroku
@@ -261,13 +267,6 @@ html.not-ie(lang='en')
                       i.devicons.devicons-terminal
                     .col-md-2
                       i.devicons.devicons-terminal_badge
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-code
-                    .col-md-2
-                      i.devicons.devicons-code_badge
-                    .col-md-2
-                      i.devicons.devicons-responsive
                     .col-md-2
                       i.devicons.devicons-mongodb
                   p
@@ -617,7 +616,7 @@ html.not-ie(lang='en')
               p
                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
       // Section : Service END
-      
+    
       // Parallax Section
       #wprocess.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
         .parallax-overlay-2
@@ -691,7 +690,7 @@ html.not-ie(lang='en')
           #options.clearfix
             ul#filters.option-set.clearfix(data-option-key='filter')
               li
-                a.selected(href='#filter', data-option-value='*') all works
+                a.selected(href='#filter', data-option-value='*') all
               li
                 a(href='#filter', data-option-value='.webdesign') AngularJS
               li
@@ -870,25 +869,28 @@ html.not-ie(lang='en')
       // Footer END
     // END PAGE WRAPPER
     
-    // JavaScript
+    // VENDOR SCRIPTS
+    // build:js scripts/vendor.js
     script(type='text/javascript', src='public/vendor/theme/js/jquery.js')
     script(type='text/javascript', src='public/vendor/theme/js/bootstrap.min.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.nav.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.scrollTo.js')
-    script(type='text/javascript', src='public/vendor/theme/js/scripts.js')
-    script(type='text/javascript', src='http://maps.googleapis.com/maps/api/js?sensor=false')
-    script(type='text/javascript', src='public/vendor/theme/js/gmap3.js')
     script(type='text/javascript', src='public/vendor/theme/js/appear.js')
-    script(type='text/javascript', src='public/vendor/theme/js/jquery.form.js')
+    script(type='text/javascript', src='public/vendor/theme/js/jquery.form.min.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.ufvalidator-1.0.5.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.isotope.min.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.easing-1.3.pack.js')
-    script(type='text/javascript', src='public/vendor/theme/js/styleswitcher.js')
     script(type='text/javascript', src='public/vendor/theme/js/owl.carousel.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.parallax-1.1.3.js')
     script(type='text/javascript', src='public/vendor/theme/js/skrollr.js')
-    script(type='text/javascript', src='public/vendor/theme/js/tweetscroll/jquery.tweetscroll.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.nicescroll.min.js')
     script(type='text/javascript', src='public/vendor/theme/js/jquery.sticky.js')
     script(type='text/javascript', src='public/vendor/theme/js/another.js')
     script(type='text/javascript', src='public/vendor/theme/js/metro.js')
+    // endbuild
+
+    // CUSTOM SCRIPTS
+    // build:js({.tmp,app}) scripts/customTheme.js
+    script(type='text/javascript', src='public/vendor/theme/js/scripts.js')
+    script(type='text/javascript', src='public/vendor/theme/js/styleswitcher.js')
+    // endbuild

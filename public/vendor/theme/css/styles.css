@@ -24,16 +24,16 @@ Author URI: http://themeforest.net/user/metrothemes/profile?ref=metrothemes
 ------------------------------------------------*/
 html{
     overflow-y: scroll;
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
-body { 
-    font-family: 'Open Sans',sans-serif,Arial; 
-    font-size: 16px; 
+body {
+    font-family: 'Open Sans',sans-serif,Arial;
+    font-size: 16px;
     color: #6D6D6D;
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
     font-weight: 300;
 }
-a { 
+a {
     text-decoration: none;
     outline:none;
 }
@@ -45,9 +45,9 @@ br.clear { margin: 0px; padding: 0px; }
 hr{margin: 10px 0;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Montserrat',sans-serif,Arial; padding-bottom: 5px; 
-    color: #373432; 
-    line-height: 1em; 
+    font-family:'Montserrat',sans-serif,Arial; padding-bottom: 5px;
+    color: #373432;
+    line-height: 1em;
     font-weight: normal;
  }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
@@ -59,9 +59,9 @@ h4 { font-size: 18px; }
 h5 { font-size: 16px; }
 h6 { font-size: 14px; }
 */
-p { 
+p {
     padding-bottom: 10px;
-    line-height: 25px; 
+    line-height: 25px;
 }
 strong { font-weight: bold; color: #1c1c1c; }
 cite, em, i { font-style: italic; }
@@ -100,10 +100,10 @@ blockquote{
 /**/
 
 a.mt-button {
-    border-radius:3px;  
+    border-radius:3px;
     letter-spacing:0;
     text-transform:uppercase;
-    display:inline-block;   
+    display:inline-block;
 }
 .small {
     font-size:12px;
@@ -125,7 +125,7 @@ a.mt-button {
 }
 .grey {
     color:#FFF;
-}       
+}
 .grey:hover {
     color:#FFF;
 }
@@ -139,7 +139,7 @@ a.mt-button {
     background-color:none;
     color:#222222;
     line-height:10px!important;
-}       
+}
 .rounded {
     border-radius:50px!important;
 }
@@ -147,18 +147,18 @@ a.mt-button {
     display: none;
 }
 .work_process:before {
-    font-family: FontAwesome; 
+    font-family: FontAwesome;
     font-weight: normal;
-    text-align: left; 
+    text-align: left;
     font-style: normal;
     display: inline-block;
     text-decoration: inherit;
-}    
+}
 /* SOCIAL ICONS
 --------------------------------------------------------------------- */
 .social { padding:0; margin:2em 0; list-style:none; text-align: center; }
 .social li { display:inline-block; padding:0; margin-bottom: 3px; }
-.social li a { 
+.social li a {
     border-radius: 4px;
     color: #FFFFFF;
     display: block;
@@ -193,7 +193,7 @@ a.mt-button {
 .social li a.friendfeed:before { content: '\e867'; }
 .social li a.github:before { content: '\e805'; }
 .social li a.wordpress:before { content: '\e816'; }
-.social li a.pinterest:before { content: '\e804'; } 
+.social li a.pinterest:before { content: '\e804'; }
 .social li a.instagram:before { content: '\e80e'; }
 
 .social li a:hover { color:#fff !important; background-color:#000; border-color: #fff; }
@@ -249,10 +249,10 @@ a.mt-button {
     border-radius: 50%;
     position: relative;
     cursor: default;
-    box-shadow: 
+    box-shadow:
         inset 0 0 0 0 rgba(200,95,66, 0.4),
         inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);    
+        0 1px 2px rgba(0,0,0,0.1);
     margin: 0 auto;
 }
 #header .social{
@@ -371,7 +371,7 @@ a.mt-button {
   background-color: #000000;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-    border-color: transparent; 
+    border-color: transparent;
 }
 
 
@@ -437,7 +437,7 @@ a.mt-button {
     border:2px solid #FFFFFF;
     color:#FFFFFF;
     line-height:10px!important;
-}       
+}
 .parallax .outline:hover {
     background-color:#FFFFFF;
     color:#222;
@@ -450,7 +450,7 @@ a.mt-button {
     background-color: rgba(246, 238, 49, 0.9);
     background-color: rgba(0, 0, 0, 0.9);
     */
-    
+
     background:repeat scroll 0 0 rgba(0, 0, 0, 0.8);
     height: 100%;
 }
@@ -460,10 +460,10 @@ a.mt-button {
     border-radius: 50%;
     position: relative;
     cursor: default;
-    box-shadow: 
+    box-shadow:
         inset 0 0 0 0 rgba(200,95,66, 0.4),
         inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);    
+        0 1px 2px rgba(0,0,0,0.1);
     margin: 0 auto;
 }
 
@@ -515,7 +515,7 @@ a.mt-button {
 
 .section-title{
     margin-top: 20px;
-    text-align: left; 
+    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -547,10 +547,10 @@ a.mt-button {
     height: auto;
     margin-top: 24px;
     max-width: 100%;
-        box-shadow: 
+        box-shadow:
         inset 0 0 0 0 rgba(200,95,66, 0.4),
         inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);  
+        0 1px 2px rgba(0,0,0,0.1);
 }
 /*Counters
 ----------------------------------------*/
@@ -576,7 +576,7 @@ a.mt-button {
 /* Timeline
 -------------------------------------------------- */
 .timeline {
-    background: url("../img/line.gif") repeat-y scroll 109px 0 transparent;
+    background: url("../../../assets/img/line.gif") repeat-y scroll 109px 0 transparent;
     margin-left: 50px;
 }
 .timeline-item {
@@ -596,7 +596,7 @@ a.mt-button {
     margin-top: 20px;
     text-align: center;
     width: 46px;
-    margin-left: 85px;  
+    margin-left: 85px;
 }
 .timeline-head-content {
     background-color: #F5F5F5;
@@ -617,7 +617,7 @@ a.mt-button {
     float: left;
     margin-top: 31px;
     width: 85px;
-    font-size: 14px;    
+    font-size: 14px;
 }
 .timeline-item-trigger {
     background: none repeat scroll 0 0 #3BC2C8;
@@ -630,7 +630,7 @@ a.mt-button {
     line-height: 46px;
     margin-top: 20px;
     text-align: center;
-    width: 46px;  
+    width: 46px;
 }
 .timeline-item-content {
     background-color: #F5F5F5;
@@ -677,18 +677,18 @@ a.mt-button {
 ----------------------------------------*/
 .skill {
     text-align: left!important;
-    margin-left: -40px;  
+    margin-left: -40px;
     margin-top: 40px;
     }
-    
+
 .skill li {
     list-style: none!important;
     }
-    
+
 .skill li:last-child span {
     margin-bottom: 0px;
     }
-    
+
 .skill li .skill-wrap {
     margin-bottom:50px;
     border-radius: 3px 3px 3px 3px;
@@ -697,8 +697,8 @@ a.mt-button {
     -moz-border-radius: 3px 3px 3px 3px;
     background:#dddddd;
     }
-    
-.skill li span { 
+
+.skill li span {
     height: 35px;
     width: 0px;
     display: block;
@@ -707,16 +707,16 @@ a.mt-button {
     -o-border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
     }
-    
+
 .skill li p {
     padding-bottom: 2px;
     }
-    
+
 .skill li span {
     overflow: visible!important;
     position: relative;
 }
-    
+
 .skill li span strong {
     position: absolute;
     top: 10px;
@@ -742,7 +742,7 @@ a.mt-button {
     transition:all 0.3s ease 0s;
     -moz-transition:all 0.3s ease 0s;
     -webkit-transition:all 0.3s ease 0s;
-    -o-transition:all 0.3s ease 0s;    
+    -o-transition:all 0.3s ease 0s;
 }
 .service-item:hover:before {
     content:"";
@@ -751,7 +751,7 @@ a.mt-button {
     right:0;
     border-width:0 25px 25px 0;
     border-style:solid;
-    display:block; width:0; 
+    display:block; width:0;
 }
 .service-item .icon{
     font-size: 50px;
@@ -802,7 +802,7 @@ a.mt-button {
 /*Clients carousel & testimonials
 ------------------------------------*/
 #clients {
-    background: url("../img/content.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../../../assets/img/content.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .clients_logo {
     list-style: none outside none;
@@ -881,7 +881,7 @@ a.mt-button {
     padding: 0;
     position: relative;
     width: 100%;
-  
+
 }
 .portfolio-container .mt{
     margin: 0;
@@ -947,7 +947,7 @@ a.mt-button {
     -ms-transition:all 0.2s ease 0s;
     -o-transition:all 0.2s ease 0s;
 }
-.portfolio-item:hover .item-name { 
+.portfolio-item:hover .item-name {
     opacity:1;
     -webkit-transition: opacity .4s .5s;
     -moz-transition: opacity .4s .5s;
@@ -972,7 +972,7 @@ a.mt-button {
     -moz-transition: opacity .4s .8s;
     -ms-transition: opacity .4s .8s;
     -o-transition: opacity .3s .8s;
-    transition: opacity .3s .8s;        
+    transition: opacity .3s .8s;
 }
 .zoom-icon {
     left: 50%;
@@ -982,13 +982,13 @@ a.mt-button {
     height:40px;
     margin-top:40px;
     opacity:0;
-    background:url(../img/zoom.png);
+    background:url(../../../assets/img/zoom.png);
     background-size:40px 40px;
     transition:all 0.3s ease 0.1s;
     -moz-transition:all 0.3s ease 0.2s;
     -webkit-transition:all 0.3s ease 0.2s;
     -ms-transition:all 0.3s ease 0.2s;
-    -o-transition:all 0.3s ease 0.2s;   
+    -o-transition:all 0.3s ease 0.2s;
 }
 .portfolio-item:hover .zoom-icon {
     opacity:1;
@@ -999,7 +999,7 @@ a.mt-button {
     -o-transition: opacity .3s .2s, margin-top .3s .2s;
     transition: opacity .3s .2s, margin-top .3s .2s;
 }
-    
+
 .portfolio-text {
     text-align: center;
     border-bottom: 1px dashed #DEDEDE;
@@ -1013,7 +1013,7 @@ a.mt-button {
 
 .port-holder {
     border-top: 1px dashed #DEDEDE;
-    border-bottom: 1px dashed #DEDEDE; 
+    border-bottom: 1px dashed #DEDEDE;
     width: 980px;
     margin: 0 auto;
 }
@@ -1058,7 +1058,7 @@ a.mt-button {
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
-    
+
 .isotope {
     -webkit-transition-property: height, width;
     -moz-transition-property: height, width;
@@ -1066,7 +1066,7 @@ a.mt-button {
     -o-transition-property: height, width;
     transition-property: height, width;
 }
-    
+
 .isotope .isotope-item {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
@@ -1074,7 +1074,7 @@ a.mt-button {
     -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
 }
-    
+
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
     -webkit-transition-duration: 0s;
     -moz-transition-duration: 0s;
@@ -1134,7 +1134,7 @@ a.mt-button {
     text-decoration: none;
     width: 36px;
     z-index: 5;
-} 
+}
 .blog-post .rslides_nav{
     background-color: #515A5F;
     border-radius: 2px;
@@ -1154,7 +1154,7 @@ a.mt-button {
 /*Priceing
 ------------------------------------------------*/
 .price-pack {
-    
+
     outline: 2px solid #393939;
     margin-bottom: 10px;
     padding-bottom: 20px;
@@ -1245,7 +1245,7 @@ a.mt-button {
     margin: 25px;
     padding: 20px;
     width: 283px;
-    float: left;    
+    float: left;
 }
 .blog-post img{
     width: 100%;
@@ -1254,14 +1254,14 @@ a.mt-button {
     margin: 25px;
     width: 283px;
     float: left;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     padding: 20px;
     border-radius: 3px;
     transition:all 0.3s linear 0s;
     -moz-transition:all 0.3s linear 0s;
     -webkit-transition:all 0.3s linear 0s;
     -o-transition:all 0.3s linear 0s;
-    -ms-transition:all 0.3s linear 0s;           
+    -ms-transition:all 0.3s linear 0s;
 }
 .blog-quote h2{
     color: #FFFFFF;
@@ -1314,7 +1314,7 @@ a.mt-button {
     overflow: hidden;
     padding-bottom: 56.25%;
     padding-top: 10px;
-    position: relative;    
+    position: relative;
 }
 .blog-post .video-holder iframe,.blog-post .video-holder object,.blog-post .video-holder embed{
     border: 0 none;
@@ -1322,7 +1322,7 @@ a.mt-button {
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;    
+    width: 100%;
 }
 
 #blog-carousel .item img{
@@ -1337,7 +1337,7 @@ a.mt-button {
     border-color: rgba(0, 0, 0, 0.1);
     box-shadow: none;
     color: #FFFFFF;
-    text-shadow: none;     
+    text-shadow: none;
 }
 
 .btn:hover,.btn:focus{
@@ -1569,7 +1569,7 @@ footer .info li {
     position:fixed;
     z-index:100000;
  }
-    
+
 .bubblingG {
     text-align: center;
     width:80px;
@@ -1704,7 +1704,3 @@ footer .info li {
     background-color:#FFFFFF;
     transform: translateY(-21px);
 }
-
-
-
-
