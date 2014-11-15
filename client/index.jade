@@ -47,8 +47,7 @@ html.not-ie(lang='en')
     // START PAGE WRAPPER
     #page-wrapper
       // Section : Home
-      section#home.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
-      section#home.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      section#home.parallax(style="background-image: url('public/assets/img/bg/iceberg.jpg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='0')
         .parallax-overlay
           .container
             .col-md-12
@@ -60,7 +59,7 @@ html.not-ie(lang='en')
               // Personal Info end
               // View more
               .gotosection
-                a(href='#about')
+                a(href='#service')
                   i.fa.fa-angle-double-down
               // View more end
       // Section : Home END
@@ -81,43 +80,45 @@ html.not-ie(lang='en')
               ul.nav.navbar-nav
                 li
                   a.colapse-menu1.active(href='#home') Home
+                //- li
+                //-   a.colapse-menu1(href='#about') About
                 li
-                  a.colapse-menu1(href='#about') About
+                  a.colapse-menu1(href='#service') Skills
                 li
                   a.colapse-menu1(href='#resume') Resume
-                li
-                  a.colapse-menu1(href='#skills') Skills
-                li
-                  a.colapse-menu1(href='#service') Service
+                //- li
+                //-   a.colapse-menu1(href='#skills') Skills
+              
                 li
                   a.colapse-menu1(href='#portfolio') Portfolio
                 li
                   a.colapse-menu1(href='#contact') Contact
-            // /.navbar-collapse
-          // /.container-fluid
-      // END of Navigation
+            //- /.navbar-collapse
+          //- /.container-fluid
+      //- END of Navigation
       
-      // Section : About
-      section#about.section
-        .container
-          // Section Title
-          .section-title
-            h1 About me
-            span.border
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-          // Section Title End
-          .row
-            .col-md-6
-              img.img-about(src='public/assets/img/profile/aboutme.jpg', alt='aboutme')
-            .col-md-6
-              h2 Melanie L. Fryman
-              h4 Developer. Data Nerd. Sociologist.
-              p
-                | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
-              p
-                | Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
-              a.mt-button.large.outline(href='#') Download Printable Resume
+      //- Section : About
+      //- section#about.section
+      //-   .container
+      //-     // Section Title
+      //-     .section-title
+      //-       h1 About me
+      //-       span.border
+      //-       p
+      //-         | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+      //-     // Section Title End
+      //-     .row
+      //-       .col-md-6
+      //-         img.img-about(src='public/assets/img/profile/aboutme.jpg', alt='aboutme')
+      //-       .col-md-6
+      //-         h2 Melanie L. Fryman
+      //-         h4 Developer. Data Nerd. Sociologist.
+      //-         p
+      //-           | Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
+      //-         p
+      //-           | Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui
+      //-         //- TODO: add downloadable resume
+      //-         //- a.mt-button.large.outline(href='#') Download Printable Resume
           //
             div class="row">
             <div class="col-md-6">
@@ -135,16 +136,138 @@ html.not-ie(lang='en')
             <a href="#" class="mt-button large outline rounded">Largest</a>
             </div>
             </div
-      // Section : About END
+      //- Section : About END
       
+      //- // Parallax Section
+      //- #another.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      //-   .parallax-overlay-2
+      //-     .container
+      //-       .row
+      //-         .col-md-12
+      //-           h1 &quot;Our lives begin to end the day we become silent about things that matter.&quot;
+      //-           p - Martin Luther King Jr.
+      //- // Parallax Section END
+      
+      // Section : Service
+      section#service.section
+        .container
+          // section title
+          .section-title
+            h1 Skills
+            span.border
+            p
+              | Combining my skills as a developer, sociologist, &amp; data analyst, I bring a unique perspective to your team.
+          // section title end
+          .row
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-desktop
+              h5 MEAN Stack
+              p
+                i.devicons.devicons-mongodb
+                  | MongoDB &amp; Mongoose
+                br
+                i.devicons.devicons-javascript_badge
+                  | Express
+                br
+                i.devicons.devicons-angular
+                  | AngularJS
+                br
+                i.devicons.devicons-nodejs_small
+                  | Node.js
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_phone
+              h5 Mobile Dev
+              p
+                i.devicons.devicons-phonegap
+                  | Cordova / PhoneGap
+                br
+                i.devicons.devicons-android
+                  | Android
+                br
+                i.devicons.devicons-apple
+                  | iOS
+                br
+                i.devicons.devicons-responsive
+                  | Responsive design
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-gamepad
+              h5 Game Dev
+              p Phaser
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-lightbulb-o
+              h5 User Experience / Interface
+              p
+                i.devicons.devicons-bootstrap
+                  | Bootstrap
+                br
+                i.devicons.devicons-css3
+                  | CSS 3
+                br
+                i.devicons.devicons-html5
+                  | HTML 5
+                br
+                i.devicons.devicons-jquery
+                  | jQuery
+                br
+                i.devicons.devicons-less
+                  | Less
+                br
+                i.devicons.devicons-sass
+                  | Sass
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.fa.fa-magic
+              h5 Dev Tools
+              p
+                i.devicons.devicons-heroku
+                  | Heroku / AWS
+                br
+                i.devicons.devicons-github_badge
+                  | GitHub
+                br
+                i.devicons.devicons-grunt
+                  | Grunt
+                br
+                i.devicons.devicons-gulp
+                  | Gulp
+                br
+                i.devicons.devicons-travis
+                  | TravisCI
+                br
+                i.devicons.devicons-yeoman
+                  | Yeoman
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_data
+              h5 Data Analysis
+              p
+                | From surveys to focus groups, &amp; everything in between.
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_study
+              h5 Research
+              p
+                | Need to find out what your customers want?  I've got you covered!
+            .service-item.col-xs-12.col-sm-4.col-md-3
+              span.icon
+                i.li_world
+              h5 Cultural Context
+              p
+                | As a sociologist, I can provide often-needed cultural context for app &amp; product development.
+      // Section : Service END
+    
       // Parallax Section
-      #another.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      #hire.parallax(style="background-image: url('public/assets/img/bg/rain.jpg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='0')
         .parallax-overlay-2
           .container
             .row
               .col-md-12
-                h1 &quot;Our lives begin to end the day we become silent about things that matter.&quot;
-                p - Martin Luther King Jr.
+                h1 I Am Available for Hire!
+                a.mt-button.large.outline(href='#contact') Hire Me
       // Parallax Section END
       
       // Section : Resume
@@ -152,10 +275,10 @@ html.not-ie(lang='en')
         .container
           // section title
           .section-title
-            h1 My resume
+            h1 resume
             span.border
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            //- p
+            //-   | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
           // section title END
           // Education Timeline
           .timeline
@@ -187,88 +310,7 @@ html.not-ie(lang='en')
                   p
                     small.muted from June 2014 to present
                   h4.media-heading.primary-color Nashville, TN
-                  p WEB DEVELOPER BOOTCAMP: Intensive training &amp; focused career preparation
-                  p Sample of technologies learned:
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-javascript
-                    .col-md-2
-                      i.devicons.devicons-github_badge
-                    .col-md-2
-                      i.devicons.devicons-markdown
-                    .col-md-2
-                      i.devicons.devicons-database
-                    .col-md-2
-                      i.devicons.devicons-javascript
-                    .col-md-2
-                      i.devicons.devicons-angular
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-jquery_ui
-                    .col-md-2
-                      i.devicons.devicons-nodejs
-                    .col-md-2
-                      i.devicons.devicons-javascript_shield
-                    .col-md-2
-                      i.devicons.devicons-bootstrap
-                    .col-md-2
-                      i.devicons.devicons-sass
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-less
-                    .col-md-2
-                      i.devicons.devicons-css3
-                    .col-md-2
-                      i.devicons.devicons-css3_full
-                    .col-md-2
-                      i.devicons.devicons-html5
-                    .col-md-2
-                      i.devicons.devicons-grunt
-                    .col-md-2
-                      i.devicons.devicons-code_badge
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-bower
-                    .col-md-2
-                      i.devicons.devicons-gulp
-                    .col-md-2
-                      i.devicons.devicons-npm
-                    .col-md-2
-                      i.devicons.devicons-ubuntu
-                    .col-md-2
-                      i.devicons.devicons-android
-                    .col-md-2
-                      i.devicons.devicons-code
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-apple
-                    .col-md-2
-                      i.devicons.devicons-appstore
-                    .col-md-2
-                      i.devicons.devicons-phonegap
-                    .col-md-2
-                      i.devicons.devicons-atom
-                    .col-md-2
-                      i.devicons.devicons-redis
-                    .col-md-2
-                      i.devicons.devicons-requirejs
-                    .col-md-2
-                      i.devicons.devicons-responsive
-                  .row
-                    .col-md-2
-                      i.devicons.devicons-heroku
-                    .col-md-2
-                      i.devicons.devicons-travis
-                    .col-md-2
-                      i.devicons.devicons-yeoman
-                    .col-md-2
-                      i.devicons.devicons-javascript_badge
-                    .col-md-2
-                      i.devicons.devicons-terminal
-                    .col-md-2
-                      i.devicons.devicons-terminal_badge
-                    .col-md-2
-                      i.devicons.devicons-mongodb
+                  p WEB DEVELOPER BOOTCAMP: Intensive training focused career preparation
                   p
                     a.noprint(href='http://nashvillesoftwareschool.com', title='NSS') &rarr; View website
               // /end of timeline main content
@@ -292,10 +334,10 @@ html.not-ie(lang='en')
                   p Graduated with honors: summa cum laude
                   p
                     | Thesis: Massively Multiplayer Online Role-Playing Game (MMORPG) Player Identity: An Application of Identity Control Theory
-                  p  
-                    | Using online surveys, I apply identity control theory to the massively multiplayer online role-playing game (MMORPG) player identity and test relationships between commitment, identity salience, and identity-verifying behavior. Given the debate over the isolating effects of online gaming, I also examine the relationship between self-verifying behavior (amount of time spent playing MMORPGs a week) and real-world social interaction. This study provides compelling support for identity control theory, indicating strong relationships between commitment, identity salience, and identity-verifying behavior. MMORPG players with high levels of commitment and identity salience tend to spend more time in game, and report lower levels of real-world social interaction. However, cautious interpretation is needed due to the limitations of this study; results do not clearly indicate that online gamers are socially isolated. Implications of findings and areas for theoretical development are discussed.
-                  p
-                    a.noprint(href='#', title='') &rarr; View website
+                  //- p  
+                  //-   | Using online surveys, I apply identity control theory to the massively multiplayer online role-playing game (MMORPG) player identity and test relationships between commitment, identity salience, and identity-verifying behavior. Given the debate over the isolating effects of online gaming, I also examine the relationship between self-verifying behavior (amount of time spent playing MMORPGs a week) and real-world social interaction. This study provides compelling support for identity control theory, indicating strong relationships between commitment, identity salience, and identity-verifying behavior. MMORPG players with high levels of commitment and identity salience tend to spend more time in game, and report lower levels of real-world social interaction. However, cautious interpretation is needed due to the limitations of this study; results do not clearly indicate that online gamers are socially isolated. Implications of findings and areas for theoretical development are discussed.
+                  //- p
+                  //-   a.noprint(href='#', title='') &rarr; View website
               // /end of timeline content
             // /end of timeline item
             // Timeline item
@@ -317,8 +359,8 @@ html.not-ie(lang='en')
                     p Graduated with honors: summa cum laude
                     p
                       | Senior Project: A Retrospective Examination of Race Differences in the Onset of Criminal Careers among Incarcerated Men
-                    p  
-                      | Research on incarceration suggests prison is a life cycle stage for many American males, but this life stage is not uniform across race.  Using data from the 2004 Bureau of Justice Statistics Survey of Inmates in Federal Correctional Facilities, I examine the timing and social context of men’s entry into this life stage.  Using hierarchical multiple linear regression, I estimate the impact of race on inmates’ age at their first arrest. Four models are utilized to reveal interactions between race and independent variable blocks on age of first arrest.  Using unstandardized regression coefficients, I find that African Americans are arrested roughly 3 three years earlier than their Caucasian counterparts.  My analysis reveals that greater entrenchment in peer criminal networks contribute to Black males’ earlier involvement in the criminal justice system.
+                    //- p  
+                    //-   | Research on incarceration suggests prison is a life cycle stage for many American males, but this life stage is not uniform across race.  Using data from the 2004 Bureau of Justice Statistics Survey of Inmates in Federal Correctional Facilities, I examine the timing and social context of men’s entry into this life stage.  Using hierarchical multiple linear regression, I estimate the impact of race on inmates’ age at their first arrest. Four models are utilized to reveal interactions between race and independent variable blocks on age of first arrest.  Using unstandardized regression coefficients, I find that African Americans are arrested roughly 3 three years earlier than their Caucasian counterparts.  My analysis reveals that greater entrenchment in peer criminal networks contribute to Black males’ earlier involvement in the criminal justice system.
                 // /end of timeline content
               // /end of timeline item
             // Timeline item
@@ -504,172 +546,58 @@ html.not-ie(lang='en')
               // /Experience Timeline End
             // Section : Resume END
       
-      // Section : Skills
-      section#skills.section
-        .container
-          // section title
-          .section-title
-            h1 Skills
-            span.border
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-          // section title end
-          .row
-            .col-md-6
-              ul.skill
-                li
-                  .skill-wrap
-                    span(data-width='75')
-                      strong MEAN Stack
-                li
-                  .skill-wrap
-                    span(data-width='65')
-                      strong Mobile Dev
-                li
-                  .skill-wrap
-                    span(data-width='80')
-                      strong Game Dev
-            .col-md-6
-              ul.skill
-                li
-                  .skill-wrap
-                    span(data-width='95')
-                      strong Data Collection &amp; Analysis
-                li
-                  .skill-wrap
-                    span(data-width='98')
-                      strong Survey Methodology
-                li
-                  .skill-wrap
-                    span(data-width='65')
-                      strong Social Network Analysis
-          // skills END
-      // Section : skills END
-      
       // Parallax Section
-      #hire.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      #hire.parallax(style="background-image: url('public/assets/img/bg/drops.jpeg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
         .parallax-overlay-2
           .container
             .row
               .col-md-12
-                h1 I Am Available for Hire!
-                a.mt-button.large.outline(href='#contact') Hire Me
       // Parallax Section END
       
-      // Section : Service
-      section#service.section
-        .container
-          // section title
-          .section-title
-            h1 what i can provide
-            span.border
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-          // section title end
-          .row
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.fa.fa-desktop
-              h5 MEAN Stack
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_phone
-              h5 Mobile Dev
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.fa.fa-gamepad
-              h5 Game Dev
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.fa.fa-lightbulb-o
-              h5 User Experience
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.fa.fa-magic
-              h5 User Interface
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_data
-              h5 Data Analysis
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_study
-              h5 Research
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-            .service-item.col-xs-12.col-sm-4.col-md-3
-              span.icon
-                i.li_world
-              h5 Cultural Context
-              p
-                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-      // Section : Service END
-    
-      // Parallax Section
-      #wprocess.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
-        .parallax-overlay-2
-          .container
-            // Title
-            .title
-              h1 Work Process
-              span.border
-            // Title
-            .row
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.icon-lamp
-                    h4 IDEA
-                // work_process
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.fa.fa-puzzle-piece
-                    h4 CONCEPT
-                // work_process
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.icon-brush
-                    h4 DESIGN
-                // work_process
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.fa.fa-code
-                    h4 DEVELOP
-                // work_process
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.fa.fa-bug
-                    h4 TEST
-                // work_process
-              .col-xs-6.col-sm-4.col-md-2
-                // work_process
-                .work_process
-                  .work_process-box
-                    i.fa.fa-rocket
-                    h4 LAUNCH
-                // work_process
-      // Parallax Section END
+      //- 
+      //- // Section : Skills
+      //- section#skills.section
+      //-   .container
+      //-     // section title
+      //-     .section-title
+      //-       h1 Skills
+      //-       span.border
+      //-       p
+      //-         | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+      //-     // section title end
+      //-     .row
+      //-       .col-md-6
+      //-         ul.skill
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='75')
+      //-                 strong MEAN Stack
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='65')
+      //-                 strong Mobile Dev
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='45')
+      //-                 strong Game Dev
+      //-       .col-md-6
+      //-         ul.skill
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='90')
+      //-                 strong Data Collection &amp; Analysis
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='98')
+      //-                 strong Survey Methodology
+      //-           li
+      //-             .skill-wrap
+      //-               span(data-width='65')
+      //-                 strong Social Network Analysis
+      //-     // skills END
+      //- // Section : skills END
+      
+      
       
       // Section : Portfolio
       section#portfolio.section
@@ -679,137 +607,133 @@ html.not-ie(lang='en')
             h1 Portfolio
             span.border
             p
-              | Checkout some of my apps!
+              | Coming soon!
           // section title end
-          .portfolio-start
-          // Project Details
-          #project-details-box
-            #project-data
-          // /Project Details end
-          // #options
-          #options.clearfix
-            ul#filters.option-set.clearfix(data-option-key='filter')
-              li
-                a.selected(href='#filter', data-option-value='*') all
-              li
-                a(href='#filter', data-option-value='.webdesign') AngularJS
-              li
-                a(href='#filter', data-option-value='.uidesign') Mobile
-              li
-                a(href='#filter', data-option-value='.games') Games
-              li
-                a(href='#filter', data-option-value='.logodesign') Research
-              li
-                a(href='#filter', data-option-value='.illustration') Program Evaluation
-              li
-                a(href='#filter', data-option-value='.photography') Presentations
-          // #options END
-          
-          // Portfolio container
-          .portfolio-container
-            // Portfolio Item
-            .portfolio-item.mt.games
-              a.project-link(href='public/views/projects/project1.html', title='Wobbly Who')
-                .portfolio-image
-                  img(src='public/assets/img/projects/project1.png', alt='Portfolio 1')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Wobbly Who
-                    p.item-type Game
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.webdesign.logodesign.photography
-              a.project-link(href='public/views/projects/project2.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 2')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Slider
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.uidesign.photography
-              a.project-link(href='public/views/projects/project3.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 3')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Video
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.webdesign
-              a.project-link(href='public/views/projects/project4.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 4')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Slider
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.branding.logodesign.photography
-              a.project-link(href='public/views/projects/project5.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 5')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Video
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.webdesign.illustration
-              a.project-link(href='public/views/projects/project6.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 6')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Slider
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.branding.illustration
-              a.project-link(href='public/views/projects/project7.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 7')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Video
-            // /Portfolio Item
-            // Portfolio Item
-            .portfolio-item.mt.webdesign.illustration
-              a.project-link(href='public/views/projects/project8.html', title='Open Project')
-                .portfolio-image
-                  img(src='public/assets/img/placeholder.jpg', alt='Portfolio 8')
-                .item-overlay
-                  .item-info
-                    .zoom-icon
-                    h4.item-name Project Title
-                    p.item-type Slider
-            // /Portfolio Item
-          // Portfolio container end
+          //- .portfolio-start
+          //- // Project Details
+          //- #project-details-box
+          //-   #project-data
+          //- // /Project Details end
+          //- // #options
+          //- #options.clearfix
+          //-   ul#filters.option-set.clearfix(data-option-key='filter')
+          //-     li
+          //-       a.selected(href='#filter', data-option-value='*') all
+          //-     li
+          //-       a(href='#filter', data-option-value='.webdesign') AngularJS
+          //-     li
+          //-       a(href='#filter', data-option-value='.uidesign') Mobile
+          //-     li
+          //-       a(href='#filter', data-option-value='.games') Games
+          //-     li
+          //-       a(href='#filter', data-option-value='.logodesign') Research
+          //-     li
+          //-       a(href='#filter', data-option-value='.illustration') Program Evaluation
+          //-     li
+          //-       a(href='#filter', data-option-value='.photography') Presentations
+          //- // #options END
+          //- 
+          //- // Portfolio container
+          //- .portfolio-container
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.games
+          //-     a.project-link(href='public/views/projects/project1.html', title='Wobbly Who')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/projects/project1.png', alt='Portfolio 1')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Wobbly Who
+          //-           p.item-type Game
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.webdesign.logodesign.photography
+          //-     a.project-link(href='public/views/projects/project2.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 2')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Slider
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.uidesign.photography
+          //-     a.project-link(href='public/views/projects/project3.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 3')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Video
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.webdesign
+          //-     a.project-link(href='public/views/projects/project4.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 4')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Slider
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.branding.logodesign.photography
+          //-     a.project-link(href='public/views/projects/project5.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 5')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Video
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.webdesign.illustration
+          //-     a.project-link(href='public/views/projects/project6.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 6')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Slider
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.branding.illustration
+          //-     a.project-link(href='public/views/projects/project7.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 7')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Video
+          //-   // /Portfolio Item
+          //-   // Portfolio Item
+          //-   .portfolio-item.mt.webdesign.illustration
+          //-     a.project-link(href='public/views/projects/project8.html', title='Open Project')
+          //-       .portfolio-image
+          //-         img(src='public/assets/img/placeholder.jpg', alt='Portfolio 8')
+          //-       .item-overlay
+          //-         .item-info
+          //-           .zoom-icon
+          //-           h4.item-name Project Title
+          //-           p.item-type Slider
+          //-   // /Portfolio Item
+          //- // Portfolio container end
       // Section : Portfolio END
       
       // Parallax Section
-      #twitter.parallax(style="background-image: url('#');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='20')
+      #hire.parallax(style="background-image: url('public/assets/img/bg/trickle.jpeg');", data-stellar-background-ratio='0.6', data-stellar-vertical-offset='0')
         .parallax-overlay-2
           .container
-            // twitter feed
-            // Title
-            .title
-              i.icon-twitter
-            // Title
-            article#tweet-sroll-wrapper.clearfix
-              .tweets-list-container.tweets-list-container-with-logo
-            // twitter feed end
+            .row
+              .col-md-12
+            .row
+              .col-md-12
       // Parallax Section END
       
       // Section : Contact
@@ -819,26 +743,27 @@ html.not-ie(lang='en')
           .section-title
             h1 Contact me
             span.border
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
+            //- p
+              //- | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
           // section title end
           .row
-            .col-md-6
+            .col-md-12
               h2 LET&apos;S GET IN TOUCH
               ul.get_in
                 li
                   i.fa.fa-envelope-o
-                  p melanie@frymanet.com
+                  p 
+                    a(href='mailto:melanie@frymanet.com') melanie@frymanet.com
                 li
                   i.fa.fa-phone
                   p 615.973.8933
                 li
                   i.fa.fa-map-marker
                   p Nashville, TN, U.S.A.
-                li
-                  a(href='#')
-                    i.fa.fa-cloud-download
-                    p Download Vcard
+                //- li
+                //-   a(href='#')
+                //-     i.fa.fa-cloud-download
+                //-     p Download Vcard
               // social Icons
               ul.social
                 li
@@ -848,18 +773,6 @@ html.not-ie(lang='en')
                 li
                   a.twitter(href='https://twitter.com/mlfryman')
               // social Icons end
-            .col-md-6
-              h2 DROP ME A LINE
-              // contact from
-              form#form.form(method='post', action='public/contact.php')
-                input(type='text', name='name', placeholder='Name', required='')
-                input(type='text', name='email', placeholder='Email', required='')
-                textarea(name='message', placeholder='Message', rows='8')
-                input#submit.mt-button.medium.outline(type='submit', value='Send Message')
-              span.sending
-                | sending...
-              .mess.center
-              // contact from end
       // Section : Contact END
       
       // Footer
