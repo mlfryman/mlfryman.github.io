@@ -23,7 +23,7 @@ html.not-ie(lang='en')
     //if lt IE 9
       script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
     // vendor stylesheets
-
+    link(rel='stylesheet', href='public/assets/css/index.css')
     link(rel='stylesheet', media='screen',  href='public/vendor/theme/css/bootstrap.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/font-awesome/css/font-awesome.min.css')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/fontello/css/fontello.css')
@@ -35,7 +35,6 @@ html.not-ie(lang='en')
     link(rel='stylesheet', type='text/css', href='public/vendor/theme/css/responsive.css')
     link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Montserrat:400,700')
     link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Pacifico')
-    link(rel='stylesheet', href='public/vendor/theme/css/colors/color-sun-flower.css', title='sun-flower')
   body
     // Preloader
     .mask
@@ -52,7 +51,7 @@ html.not-ie(lang='en')
           .container
             .col-md-12
               // Personal Info
-              .avater(style="background-image: url('public/assets/img/profile/profile.jpg');background-size: cover;")
+              .avater(style="background-image: url('public/assets/img/profile/melanie.jpg');background-size: cover;")
               .info
                 h1 Melanie Fryman
                 h2 Developer. Data Analyst. Sociologist. 
@@ -213,9 +212,13 @@ html.not-ie(lang='en')
             .row
               .col-md-12
                 h1 I Am Available for Hire!
-                a.mt-button.large.outline(href='#contact') Hire Me
-                a.mt-button.large.outline(href='public/assets/mlfryman_resume.pdf', target='_blank') Resume
-
+                .row
+                  .col-xs-3
+                  .col-xs-3
+                    a.mt-button.large.outline(href='#contact') Contact Me
+                  .col-xs-3
+                    a.mt-button.large.outline(href='public/assets/mlfryman_resume.pdf', target='_blank') Download Resume
+                  .col-xs-3        
       // Parallax Section END
       // Section : Resume
       section#resume.section
@@ -224,8 +227,6 @@ html.not-ie(lang='en')
           .section-title
             h1 resume
             span.border
-            //- p
-            //-   | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
           // section title END
           // Education Timeline
           .timeline
@@ -241,7 +242,7 @@ html.not-ie(lang='en')
             // /Item Head end
             // first item of timeline
             .timeline-item
-              .timeline-item-date 2014 - present
+              .timeline-item-date 2014 - 2015
               // date
               // timeline item trigger
               .timeline-item-trigger
@@ -255,21 +256,21 @@ html.not-ie(lang='en')
                 h3.timeline-item-title(data-toggle='collapse', data-target='#edu1') Nashville Software School
                 #edu1.collapse.in
                   p
-                    small.muted from June 2014 to present
+                    small.muted from June 2014 to Jan 2015
                   h4.media-heading.primary-color Nashville, TN
                   p An intensive, full-time six month bootcamp for software engineering 
-                  | and web development. Developed full-stack web and hybrid-mobile 
-                  | applications in a rigorous and fast-paced environment. 
-                  | Designed and implemented multiple solo and group projects. 
-                  | Collaborated with peers utilizing technologies such as git, 
-                  | pair programming, and test-driven development. 
+                    | and web development. Developed full-stack web and hybrid-mobile 
+                    | applications in a rigorous and fast-paced environment. 
+                    | Designed and implemented multiple solo and group projects. 
+                    | Collaborated with peers utilizing technologies such as git, 
+                    | pair programming, and test-driven development. 
                   p
                     a.noprint(href='http://nashvillesoftwareschool.com', title='NSS') &rarr; View website
               // /end of timeline main content
             // /end of first item of timeline
             // Timeline item
             .timeline-item
-              .timeline-item-date 2006 - 2009
+              .timeline-item-date 2009 - 2011
               // date
               .timeline-item-trigger
                 span.fa.fa-plus(data-toggle='collapse', data-target='#edu2')
@@ -496,48 +497,6 @@ html.not-ie(lang='en')
             .row
               .col-md-12
       // Parallax Section END
-      //-
-      //- // Section : Skills
-      //- section#skills.section
-      //-   .container
-      //-     // section title
-      //-     .section-title
-      //-       h1 Skills
-      //-       span.border
-      //-       p
-      //-         | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco .
-      //-     // section title end
-      //-     .row
-      //-       .col-md-6
-      //-         ul.skill
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='75')
-      //-                 strong MEAN Stack
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='65')
-      //-                 strong Mobile Dev
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='45')
-      //-                 strong Game Dev
-      //-       .col-md-6
-      //-         ul.skill
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='90')
-      //-                 strong Data Collection &amp; Analysis
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='98')
-      //-                 strong Survey Methodology
-      //-           li
-      //-             .skill-wrap
-      //-               span(data-width='65')
-      //-                 strong Social Network Analysis
-      //-     // skills END
-      //- // Section : skills END
       // Section : Portfolio
       section#portfolio.section
         .container
@@ -559,17 +518,15 @@ html.not-ie(lang='en')
           //-     li
           //-       a.selected(href='#filter', data-option-value='*') all
           //-     li
-          //-       a(href='#filter', data-option-value='.webdesign') AngularJS
+          //-       a(href='#filter', data-option-value='.webdesign') MEAN Stack
           //-     li
-          //-       a(href='#filter', data-option-value='.uidesign') Mobile
+          //-       a(href='#filter', data-option-value='.uidesign') NASH Stack
           //-     li
           //-       a(href='#filter', data-option-value='.games') Games
           //-     li
-          //-       a(href='#filter', data-option-value='.logodesign') Research
+          //-       a(href='#filter', data-option-value='.logodesign') Mobile
           //-     li
-          //-       a(href='#filter', data-option-value='.illustration') Program Evaluation
-          //-     li
-          //-       a(href='#filter', data-option-value='.photography') Presentations
+          //-       a(href='#filter', data-option-value='.illustration') Capstones
           //- // #options END
           //- 
           //- // Portfolio container
