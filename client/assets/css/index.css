@@ -1,11 +1,16 @@
-a { color: #42A2B0; }
+a {
+  color: #42A2B0;
+}
 
-a:hover { color:#35828D;}
+a:hover {
+  color:#35828D;
+}
 
 #open-nav {
    background: none repeat scroll 0 0 #42A2B0;
    color: #FFFFFE;
 }
+
 #navs li :hover {
     color: #FFFFFE;
 }
@@ -13,10 +18,12 @@ a:hover { color:#35828D;}
 .outline{
     border:2px solid #42A2B0;
 }
+
 .outline:hover {
     background-color:#42A2B0;
     color:#FFF;
 }
+
 .parallax .border{
     background: none repeat scroll 0 0 #42A2B0;
 }
@@ -32,6 +39,7 @@ a:hover { color:#35828D;}
 .service-item:hover:before {
     border-color:#FFFFFE #FFFFFE #4e4e4e #4e4e4e;
 }
+
 .service-item:hover{
     background: #42A2B0;
     color: #FFFFFE;
@@ -40,6 +48,7 @@ a:hover { color:#35828D;}
 #filters li a:hover{
     background-color: #42A2B0;
 }
+
 #options li a.selected{
     background-color: #42A2B0;
 }
@@ -47,25 +56,32 @@ a:hover { color:#35828D;}
 .item-overlay{
     background-color: #42A2B0;
 }
+
 .price-pack:hover .package-price {
     background: none repeat scroll 0 0 #42A2B0;
 }
+
 .blog-quote{
     background-color: #42A2B0;
 }
+
 .blog-quote:hover{
     background-color: #35828D;
     color: #FFFFFE;
 }
+
 .blog-quote p{
     color: #FFFFFE;
 }
+
 .btn{
     background-color: #42A2B0;
 }
+
 .btn:hover,.btn:focus{
     background-color: #35828D;
 }
+
 .get_in li i{
     background: none repeat scroll 0 0 #42A2B0;
 }
