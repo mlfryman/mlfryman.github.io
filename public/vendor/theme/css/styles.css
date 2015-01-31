@@ -745,7 +745,7 @@ a.mt-button {
     -o-transition:all 0.3s ease 0s;
 }
 .service-item:hover:before {
-    content:"";
+    content:" ";
     position:absolute;
     top:0;
     right:0;

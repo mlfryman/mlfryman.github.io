@@ -1,3 +1,7 @@
+.center {
+    text-align: center
+}
+
 a {
   color: #42A2B0;
 }
@@ -21,7 +25,7 @@ a:hover {
 
 .outline:hover {
     background-color:#42A2B0;
-    color:#FFF;
+    color:#FFFFFF;
 }
 
 .parallax .border{
@@ -85,3 +89,42 @@ a:hover {
 .get_in li i{
     background: none repeat scroll 0 0 #42A2B0;
 }
+
+.push-top {
+    margin-top: 15px !important;
+}
+
+.push-bottom {
+    margin-bottom: 15px !important;
+}
+
+.push-right {
+    margin-right: 15px;
+}
+
+.push-left {
+    margin-left: 15px;
+}
+
+.center{
+  text-align: center!important;
+  vertical-align: center!important;
+}
+
+.play-icon {
+    left: 50%;
+    margin-left:-20px;
+    position:inherit;
+    width:40px;
+    height:40px;
+    margin-top:40px;
+    opacity:0;
+    background:url(../../../assets/img/zoom.png);
+    background-size:40px 40px;
+    transition:all 0.3s ease 0.1s;
+    -moz-transition:all 0.3s ease 0.2s;
+    -webkit-transition:all 0.3s ease 0.2s;
+    -ms-transition:all 0.3s ease 0.2s;
+    -o-transition:all 0.3s ease 0.2s;
+}
+
