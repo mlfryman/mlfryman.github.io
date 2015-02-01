@@ -4,8 +4,6 @@ section#portfolio.section
     .section-title
       h1 Portfolio
       span.border
-      p
-        | Coming soon!
     .portfolio-start
     // Project Details
     #project-details-box
@@ -15,94 +13,96 @@ section#portfolio.section
         li
           a.selected(href='#filter', data-option-value='*') all
         li
-          a(href='#filter', data-option-value='.webdesign') MEAN Stack
+          a(href='#filter', data-option-value='.mean') MEAN Stack
         li
-          a(href='#filter', data-option-value='.uidesign') NASH Stack
+          a(href='#filter', data-option-value='.nash') NASH Stack
         li
           a(href='#filter', data-option-value='.games') Games
         li
-          a(href='#filter', data-option-value='.logodesign') Mobile
+          a(href='#filter', data-option-value='.mobile') Mobile
         li
-          a(href='#filter', data-option-value='.illustration') Capstones
+          a(href='#filter', data-option-value='.capstones') Capstones
+        li
+          a(href='#filter', data-option-value='.hacknsh') HackNashville
     // Portfolio container
     .portfolio-container
-      // Portfolio Item
+      // Wobbly Who
       .portfolio-item.mt.games
-        a.project-link(href='public/views/projects/wobblywho.html', title='Wobbly Who')
+        a.project-link(href='public/views/projects/wobblywho.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/projects/wobblywho/wobblywho_menu.png', alt='Wobbly Who Menu')
+            img(src='public/assets/img/projects/wobblywho/wobblywho.png', alt='Wobbly Who')
           .item-overlay
             .item-info
               .zoom-icon
               h4.item-name Wobbly Who
               p.item-type A Whovian Twist on Flappy Bird
-      // Portfolio Item
-      .portfolio-item.mt.webdesign.logodesign.photography
-        a.project-link(href='public/views/projects/project2.html', title='Open Project')
+      // Duper Mario
+      .portfolio-item.mt.games
+        a.project-link(href='public/views/projects/dupermario.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 2')
+            img(src='public/assets/img/projects/dupermario/dupermario.png', alt='Duper Mario')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Slider
-      // Portfolio Item
-      .portfolio-item.mt.uidesign.photography
-        a.project-link(href='public/views/projects/project3.html', title='Open Project')
+              h4.item-name Duper Mario
+              p.item-type A Super Mario Bros. Clone
+      // BrowniePoints v2
+      .portfolio-item.mt.nash.capstones
+        a.project-link(href='public/views/projects/browniepoints2.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 3')
+            img(src='public/assets/img/placeholder.jpg', alt='BrowniePoints v2')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Video
-      // Portfolio Item
-      .portfolio-item.mt.webdesign
-        a.project-link(href='public/views/projects/project4.html', title='Open Project')
+              h4.item-name BrowniePoints v2
+              p.item-type description
+      // NashVesTN
+      .portfolio-item.mt.hacknsh
+        a.project-link(href='public/views/projects/nashvestn.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 4')
+            img(src='public/assets/img/projects/nashvestn/nashvestn-desk.png', alt='NashVesTN')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Slider
-      // Portfolio Item
-      .portfolio-item.mt.branding.logodesign.photography
-        a.project-link(href='public/views/projects/project5.html', title='Open Project')
+              h4.item-name NashVesTN
+              p.item-type description
+      // Nashville Investor
+      .portfolio-item.mt.capstones.mean
+        a.project-link(href='public/views/projects/nashinvestor.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 5')
+            img(src='public/assets/img/projects/nashinvestor/nashinvestor.png', alt='Nashville Investor')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Video
-      // Portfolio Item
-      .portfolio-item.mt.webdesign.illustration
-        a.project-link(href='public/views/projects/project6.html', title='Open Project')
+              h4.item-name Nashville Investor
+              p.item-type description
+      // Evernode
+      .portfolio-item.mt.nash.mobile
+        a.project-link(href='public/views/projects/evernode.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 6')
+            img(src='public/assets/img/projects/evernode/evernode.png', alt='Evernode')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Slider
-      // Portfolio Item
-      .portfolio-item.mt.branding.illustration
-        a.project-link(href='public/views/projects/project7.html', title='Open Project')
+              h4.item-name Evernode
+              p.item-type description
+      // Celebridate
+      .portfolio-item.mt.node
+        a.project-link(href='public/views/projects/celebridate.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 7')
+            img(src='public/assets/img/projects/celebridate/celebridate.png', alt='Celebridate')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Video
-      // Portfolio Item
-      .portfolio-item.mt.webdesign.illustration
-        a.project-link(href='public/views/projects/project8.html', title='Open Project')
+              h4.item-name Celebridate
+              p.item-type description
+      // BrowniePoints v1
+      .portfolio-item.mt.mean.capstones
+        a.project-link(href='public/views/projects/browniepoints1.html', title='Open Project')
           .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='Portfolio 8')
+            img(src='public/assets/img/placeholder.jpg', alt='BrowniePoints v1')
           .item-overlay
             .item-info
               .zoom-icon
-              h4.item-name Project Title
-              p.item-type Slider
+              h4.item-name BrowniePoints v1
+              p.item-type description
