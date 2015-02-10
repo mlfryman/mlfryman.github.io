@@ -21,7 +21,7 @@ section#portfolio.section
         li
           a(href='#filter', data-option-value='.mobile') Mobile
         li
-          a(href='#filter', data-option-value='.capstones') Capstones
+          a(href='#filter', data-option-value='.capstone') Capstones
         li
           a(href='#filter', data-option-value='.hacknsh') HackNashville
     // Portfolio container
@@ -36,18 +36,8 @@ section#portfolio.section
               .zoom-icon
               h4.item-name Wobbly Who
               p.item-type A Whovian Twist on Flappy Bird
-      // Duper Mario
-      .portfolio-item.mt.games
-        a.project-link(href='public/views/projects/dupermario.html', title='Open Project')
-          .portfolio-image
-            img(src='public/assets/img/projects/dupermario/dupermario.png', alt='Duper Mario')
-          .item-overlay
-            .item-info
-              .zoom-icon
-              h4.item-name Duper Mario
-              p.item-type A Super Mario Bros. Clone
       // BrowniePoints v2
-      .portfolio-item.mt.nash.capstones
+      .portfolio-item.mt.nash.capstone
         a.project-link(href='public/views/projects/browniepointsv2.html', title='Open Project')
           .portfolio-image
             img(src='public/assets/img/projects/browniepointsv2/bp-home.png', alt='BrowniePoints v2')
@@ -57,7 +47,7 @@ section#portfolio.section
               h4.item-name BrowniePoints v2
               p.item-type description
       // NashVesTN
-      .portfolio-item.mt.hacknsh
+      .portfolio-item.mt.hacknsh.mobile
         a.project-link(href='public/views/projects/nashvestn.html', title='Open Project')
           .portfolio-image
             img(src='public/assets/img/projects/nashvestn/nashvestn-desk.png', alt='NashVesTN')
@@ -67,7 +57,7 @@ section#portfolio.section
               h4.item-name NashVesTN
               p.item-type description
       // Nashville Investor
-      .portfolio-item.mt.capstones.mean
+      .portfolio-item.mt.capstone.mean
         a.project-link(href='public/views/projects/nashinvestor.html', title='Open Project')
           .portfolio-image
             img(src='public/assets/img/projects/nashinvestor/nashinvestor.png', alt='Nashville Investor')
@@ -86,6 +76,16 @@ section#portfolio.section
               .zoom-icon
               h4.item-name Evernode
               p.item-type description
+      // Duper Mario
+      .portfolio-item.mt.games
+        a.project-link(href='public/views/projects/dupermario.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/dupermario/dupermario.png', alt='Duper Mario')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Duper Mario
+              p.item-type A Super Mario Bros. Clone
       // Celebridate
       .portfolio-item.mt.node
         a.project-link(href='public/views/projects/celebridate.html', title='Open Project')
@@ -96,13 +96,13 @@ section#portfolio.section
               .zoom-icon
               h4.item-name Celebridate
               p.item-type description
-      // BrowniePoints v1
-      .portfolio-item.mt.mean.capstones
-        a.project-link(href='public/views/projects/browniepoints1.html', title='Open Project')
-          .portfolio-image
-            img(src='public/assets/img/placeholder.jpg', alt='BrowniePoints v1')
-          .item-overlay
-            .item-info
-              .zoom-icon
-              h4.item-name BrowniePoints v1
-              p.item-type description
+      //- // BrowniePoints v1
+      //- .portfolio-item.mt.mean.capstone
+      //-   a.project-link(href='public/views/projects/browniepoints1.html', title='Open Project')
+      //-     .portfolio-image
+      //-       img(src='public/assets/img/placeholder.jpg', alt='BrowniePoints v1')
+      //-     .item-overlay
+      //-       .item-info
+      //-         .zoom-icon
+      //-         h4.item-name BrowniePoints v1
+      //-         p.item-type description
