@@ -7,81 +7,139 @@ a:hover {
 }
 
 #open-nav {
-   background: none repeat scroll 0 0 #42A2B0;
-   color: #FFFFFE;
+  background: none repeat scroll 0 0 #42A2B0;
+  color: #FFFFFE;
 }
 
 #navs li :hover {
-    color: #FFFFFE;
+  color: #FFFFFE;
+}
+
+.service-item p.skills {
+  text-align: left!important;
+  margin-left: 50px!important;
 }
 
 .outline{
-    border:2px solid #42A2B0;
+  border:2px solid #42A2B0;
 }
 
 .outline:hover {
-    background-color:#42A2B0;
-    color:#FFF;
+  background-color:#42A2B0;
+  color:#FFFFFF;
 }
 
 .parallax .border{
-    background: none repeat scroll 0 0 #42A2B0;
+  background: none repeat scroll 0 0 #42A2B0;
 }
 
 .border {
-    background: none repeat scroll 0 0 #42A2B0;
+  background: none repeat scroll 0 0 #42A2B0;
 }
 
 .skill li span {
-    background-color: #42A2B0;
+  background-color: #42A2B0;
 }
 
 .service-item:hover:before {
-    border-color:#FFFFFE #FFFFFE #4e4e4e #4e4e4e;
+  border-color:#FFFFFE #FFFFFE #4e4e4e #4e4e4e;
 }
 
 .service-item:hover{
-    background: #42A2B0;
-    color: #FFFFFE;
+  background: #42A2B0;
+  color: #FFFFFE;
 }
 
 #filters li a:hover{
-    background-color: #42A2B0;
+  background-color: #42A2B0;
 }
 
 #options li a.selected{
-    background-color: #42A2B0;
+  background-color: #42A2B0;
+}
+
+a#portfolio-close{
+  color: #42A2B0;
 }
 
 .item-overlay{
-    background-color: #42A2B0;
+  background-color: #42A2B0;
 }
 
 .price-pack:hover .package-price {
-    background: none repeat scroll 0 0 #42A2B0;
+  background: none repeat scroll 0 0 #42A2B0;
 }
 
 .blog-quote{
-    background-color: #42A2B0;
+  background-color: #42A2B0;
 }
 
 .blog-quote:hover{
-    background-color: #35828D;
-    color: #FFFFFE;
+  background-color: #35828D;
+  color: #FFFFFE;
 }
 
 .blog-quote p{
-    color: #FFFFFE;
+  color: #FFFFFE;
 }
 
 .btn{
-    background-color: #42A2B0;
+  background-color: #42A2B0;
 }
 
 .btn:hover,.btn:focus{
-    background-color: #35828D;
+  background-color: #35828D;
 }
 
 .get_in li i{
-    background: none repeat scroll 0 0 #42A2B0;
+  background: none repeat scroll 0 0 #42A2B0;
+}
+
+.push-top {
+  margin-top: 15px !important;
+}
+
+.push-bottom {
+  margin-bottom: 15px !important;
+}
+
+.push-right {
+  margin-right: 15px;
+}
+
+.push-left {
+  margin-left: 15px;
+}
+
+.center{
+  text-align: center!important;
+  vertical-align: middle!important;
+}
+
+.project-title .tag {
+  font-size: 16px;
+  display: inline;
+  margin: 25px;
+  text-align: center;
+}
+
+.buttons > a {
+ margin: 25px;
+ width: 100%/2;
+ text-align: center;
+ color: #000;
+}
+
+.buttons a:hover {
+  color:#35828D;
+}
+
+section {
+ margin-bottom: 10px;
+}
+
+img.googleP{
+  display: inline-block;
+  max-width: 10%;
+  margin-left: 2%;
 }

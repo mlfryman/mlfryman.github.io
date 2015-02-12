@@ -1,0 +1,110 @@
+// Section : Portfolio
+section#portfolio.section
+  .container
+    .section-title
+      h1 Portfolio
+      span.border
+    .portfolio-start
+    // Project Details
+    #project-details-box
+      #project-data
+    #options.clearfix
+      ul#filters.option-set.clearfix(data-option-key='filter')
+        li
+          a.selected(href='#filter', data-option-value='*') all
+        li
+          a(href='#filter', data-option-value='.mean') MEAN Stack
+        li
+          a(href='#filter', data-option-value='.nash') NASH Stack
+        li
+          a(href='#filter', data-option-value='.node') NodeJS
+        li
+          a(href='#filter', data-option-value='.games') Phaser Games
+        li
+          a(href='#filter', data-option-value='.mobile') Mobile
+        li
+          a(href='#filter', data-option-value='.capstone') Capstones
+        li
+          a(href='#filter', data-option-value='.hacknsh') HackNashville
+    // Portfolio container
+    .portfolio-container
+      // Wobbly Who
+      .portfolio-item.mt.games
+        a.project-link(href='public/views/projects/wobblywho.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/wobblywho/wobblywho.png', alt='Wobbly Who')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Wobbly Who
+              p.item-type A Whovian Twist on Flappy Bird
+      // BrowniePoints v2
+      .portfolio-item.mt.nash.capstone
+        a.project-link(href='public/views/projects/browniepointsv2.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/browniepointsv2/bp-home.png', alt='BrowniePoints v2')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name BrowniePoints
+              p.item-type A Tracking System for Meaningless Points
+      // NashVesTN
+      .portfolio-item.mt.hacknsh.mobile.mean
+        a.project-link(href='public/views/projects/nashvestn.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/nashvestn/nashvestn_main.png', alt='NashVesTN')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name NashVesTN
+              p.item-type Increase your Community Impact
+      // Nashville Investor
+      .portfolio-item.mt.capstone.mean
+        a.project-link(href='public/views/projects/nashinvestor.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/nashinvestor/nashinvestor.png', alt='Nashville Investor')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Nashville Investor
+              p.item-type Informative Quality Data for Property Investors
+      // Evernode
+      .portfolio-item.mt.nash.mobile
+        a.project-link(href='public/views/projects/evernode.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/evernode/evernode-home.png', alt='Evernode')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Evernode
+              p.item-type Note-taking to the Next Level
+      // Duper Mario
+      .portfolio-item.mt.games
+        a.project-link(href='public/views/projects/dupermario.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/dupermario/dupermario.png', alt='Duper Mario')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Duper Mario
+              p.item-type A Super Mario Bros. Clone
+      // Celebridate
+      .portfolio-item.mt.node
+        a.project-link(href='public/views/projects/celebridate.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/celebridate/celebridate.png', alt='Celebridate')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Celebridate
+              p.item-type A Dating App for Celebrities
+      // Mogwai Roundup
+      .portfolio-item.mt.games
+        a.project-link(href='public/views/projects/mogwairoundup.html', title='Open Project')
+          .portfolio-image
+            img(src='public/assets/img/projects/mogwairoundup/mogwairoundup1.png', alt='Mogwai Roundup')
+          .item-overlay
+            .item-info
+              .zoom-icon
+              h4.item-name Mogwai Roundup
+              p.item-type Water &amp; Mogwai Don't Mix

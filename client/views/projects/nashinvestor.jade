@@ -1,0 +1,33 @@
+.port-holder
+  .row
+    // Project Title
+    .project-title
+      h1 Nashville Investor
+        sup
+          a#portfolio-close.push-left(href='#', title='Close Project')
+            i.fa.fa-times-circle-o
+      p How much is that house worth? Leverage Zillow and Nashville's Open Government API to find out!
+      p Team: Adam Barnhard, Melanie Fryman, David Boling, Logan Richardson, Dennis Stanley
+      p
+        i.fa.fa-code &nbsp;
+          | MongoDB, Express, AngularJS, NodeJS &nbsp;
+          i.fa.fa-code
+      section
+        .buttons
+          //- a(href='http://nashvilleinvestor.fryman.io/', title='Nashville Investor', target='_blank')
+          i.fa.fa-2x.fa-external-link-square
+          a(href='http://github.com/mlfryman/nashville-investor', title='View Source Code', target='_blank')
+            i.fa.fa-2x.fa-github-square
+        p.tag Website
+        p.tag Code
+    .row
+      div
+    .col-md-12
+      .portfolio-media
+        #project-carousel.owl-carousel.owl-theme
+          .item
+            img(src='public/assets/img/projects/nashinvestor/nashinvestor.png', alt='Home')
+          .item
+            img(src='public/assets/img/projects/nashinvestor/nashinvestor2.png', alt='Search')
+          .item
+            img(src='public/assets/img/projects/nashinvestor/nashinvestor3.png', alt='Contact')
