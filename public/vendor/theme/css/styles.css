@@ -633,7 +633,7 @@ a.mt-button {
     float: left;
     margin-left: 15px;
     padding: 10px 30px;
-    position: relative;
+    /*position: relative;*/
     width: 70%;
 }
 .timeline-head-content h3{
@@ -667,7 +667,7 @@ a.mt-button {
     float: left;
     margin-left: 15px;
     padding: 10px 30px;
-    position: relative;
+    /*position: relative;*/
     width: 70%;
 }
 .timeline-item-content h3 {

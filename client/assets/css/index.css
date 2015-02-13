@@ -120,14 +120,15 @@ a#portfolio-close{
   font-size: 16px;
   display: inline;
   margin: 25px;
-  text-align: center;
+  text-align: center!important;
 }
 
-.buttons > a {
- margin: 25px;
- width: 100%/2;
- text-align: center;
- color: #000;
+.buttons > a > i.fa{
+  display: inline-block;
+  margin: 5%;
+  max-width: 33.3%!important;
+  text-align: center!important;
+  color: #000;
 }
 
 .buttons a:hover {
@@ -141,5 +142,5 @@ section {
 img.googleP{
   display: inline-block;
   max-width: 10%;
-  margin-left: 2%;
+  margin: 2%;
 }
