@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "homepage": "https://github.com/mlfryman/mlfryman.github.io",
   "authors": [
-    "Melanie L. Fryman <melanie@frymanet.com>"
+    "Melanie L. Fryman <melanie@fryman.io>"
   ],
   "description": "Melanie L. Fryman's Portfolio",
   "main": "app.js",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "devicons": "~1.8.0"
   }
 }
