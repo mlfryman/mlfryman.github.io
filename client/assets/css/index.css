@@ -104,11 +104,11 @@ a#portfolio-close{
 }
 
 .push-right {
-  margin-right: 15px;
+  margin-right: 15px !important;
 }
 
 .push-left {
-  margin-left: 15px;
+  margin-left: 15px !important;
 }
 
 .center{
