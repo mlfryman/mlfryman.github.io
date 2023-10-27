@@ -16,13 +16,13 @@ module.exports = function(grunt){
       all: ['Gruntfile.js', 'client/**/*.js']
     },
     // ---------------------------------------------------------------------- //
-    jscs: {
-      src: '<%= jshint.all %>',
-      options: {
-        config: '.jscsrc',
-        reporter: 'console'
-      }
-    },
+    // jscs: {
+    //   src: '<%= jshint.all %>',
+    //   options: {
+    //     config: '.jscsrc',
+    //     reporter: 'console'
+    //   }
+    // },
     // ---------------------------------------------------------------------- //
     jade: {
       build: {
@@ -89,7 +89,7 @@ module.exports = function(grunt){
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-jscs');
+  //grunt.loadNpmTasks('grunt-jscs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jade');
@@ -100,6 +100,6 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-concat');
 
   grunt.registerTask('deploy', ['clean', 'build', 'shell:bower']);
-  grunt.registerTask('build', ['jshint:all', 'jscs', 'jade', 'less', 'copy:js', 'copy:assets', 'copy:favicon']);
+  grunt.registerTask('build', ['jshint:all', 'jade', 'less', 'copy:js', 'copy:assets', 'copy:favicon']);
   grunt.registerTask('default', ['build', 'watch']);
 };

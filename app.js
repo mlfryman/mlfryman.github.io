@@ -1,7 +1,7 @@
 var connect = require('connect'),
     serveStatic = require('serve-static'),
     morgan = require('morgan'),
-    port = process.env.PORT,
+    port = 8000,
     app = connect();
 
 app.use(morgan('dev'));
