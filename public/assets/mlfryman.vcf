@@ -4,13 +4,12 @@ PRODID:-//Apple Inc.//Mac OS X 10.10.1//EN
 N:Fryman;Melanie;L.;;
 FN:Melanie L. Fryman
 TITLE:Developer\, Data Analyst
-EMAIL;type=INTERNET;type=HOME;type=pref:melanie@fryman.io
+EMAIL;type=INTERNET;type=HOME;type=pref:bmlf72@gmail.com
 TEL;type=CELL;type=VOICE;type=pref:615-973-8933
-ADR;type=HOME;type=pref:;;415 Church Street # 1404;Nashville;TN;37219;
+ADR;type=HOME;type=pref:;;3256 Woodpoint Dr;Nashville;TN;37207;
 X-SOCIALPROFILE;type=github.com:http://github.com/mlfryman
 X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/mlfryman
-X-SOCIALPROFILE;type=twitter:http://twitter.com/mlfryman
-item1.URL;type=pref:http://melanie.fryman.io
+item1.URL;type=pref:https://mlfryman.github.io/
 item1.X-ABLabel:_$!<HomePage>!$_
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQEASABIAAD/4QBARXhpZgAATU0AKgAA
  AAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAA76ADAAQAAAABAAAA7wAAAAD/7QA4UG
